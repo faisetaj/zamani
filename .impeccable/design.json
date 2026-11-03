@@ -4,63 +4,437 @@
   "title": "Design System: Zamani Grill & Market",
   "extensions": {
     "colorMeta": {
-      "paper":        { "role": "neutral",   "displayName": "Card Stock",     "canonical": "#FBF8F2", "cssVar": "--paper",       "tonalRamp": ["oklch(20% 0.01 85)", "oklch(32% 0.012 85)", "oklch(45% 0.014 85)", "oklch(58% 0.016 85)", "oklch(71% 0.016 85)", "oklch(84% 0.014 85)", "oklch(93% 0.01 85)", "oklch(98% 0.008 85)"] },
-      "paper-2":      { "role": "neutral",   "displayName": "Mat",            "canonical": "#F3EEE4", "cssVar": "--paper-2",     "tonalRamp": ["oklch(20% 0.012 80)", "oklch(32% 0.014 80)", "oklch(45% 0.016 80)", "oklch(58% 0.018 80)", "oklch(71% 0.018 80)", "oklch(84% 0.016 80)", "oklch(90% 0.014 80)", "oklch(95% 0.012 80)"] },
-      "paper-3":      { "role": "neutral",   "displayName": "Counter",        "canonical": "#EAE3D6", "cssVar": "--paper-3",     "tonalRamp": ["oklch(20% 0.014 80)", "oklch(32% 0.016 80)", "oklch(45% 0.018 80)", "oklch(58% 0.02 80)", "oklch(71% 0.02 80)", "oklch(82% 0.018 80)", "oklch(88% 0.016 80)", "oklch(92% 0.014 80)"] },
-      "ink":          { "role": "neutral",   "displayName": "Ink",            "canonical": "#14201C", "cssVar": "--ink",         "tonalRamp": ["oklch(15% 0.015 170)", "oklch(22% 0.015 170)", "oklch(32% 0.015 170)", "oklch(45% 0.015 170)", "oklch(58% 0.014 170)", "oklch(71% 0.012 170)", "oklch(84% 0.01 170)", "oklch(95% 0.006 170)"] },
-      "muted":        { "role": "neutral",   "displayName": "Muted Ink",      "canonical": "#5B6661", "cssVar": "--muted",       "tonalRamp": ["oklch(15% 0.012 170)", "oklch(25% 0.012 170)", "oklch(35% 0.012 170)", "oklch(47% 0.012 170)", "oklch(58% 0.012 170)", "oklch(70% 0.01 170)", "oklch(83% 0.008 170)", "oklch(95% 0.005 170)"] },
-      "ink-on-brand": { "role": "neutral",   "displayName": "Paper on Cedar", "canonical": "#F4F8F5", "cssVar": "--ink-on-brand", "tonalRamp": ["oklch(15% 0.01 165)", "oklch(27% 0.01 165)", "oklch(40% 0.01 165)", "oklch(53% 0.01 165)", "oklch(66% 0.01 165)", "oklch(80% 0.008 165)", "oklch(92% 0.006 165)", "oklch(97% 0.005 165)"] },
-      "brand":        { "role": "primary",   "displayName": "Cedar",          "canonical": "#1E6B4F", "cssVar": "--brand",       "tonalRamp": ["oklch(15% 0.04 162)", "oklch(25% 0.06 162)", "oklch(36% 0.075 162)", "oklch(47% 0.085 162)", "oklch(58% 0.09 162)", "oklch(70% 0.08 162)", "oklch(83% 0.06 162)", "oklch(95% 0.025 162)"] },
-      "brand-deep":   { "role": "primary",   "displayName": "Cedar Deep",     "canonical": "#14523B", "cssVar": "--brand-deep",  "tonalRamp": ["oklch(15% 0.04 162)", "oklch(22% 0.055 162)", "oklch(30% 0.07 162)", "oklch(39% 0.08 162)", "oklch(50% 0.085 162)", "oklch(64% 0.08 162)", "oklch(80% 0.06 162)", "oklch(94% 0.025 162)"] },
-      "brand-lt":     { "role": "primary",   "displayName": "Cedar Light (declared, unused)", "canonical": "#2F8A68", "cssVar": "--brand-lt", "tonalRamp": ["oklch(15% 0.04 162)", "oklch(26% 0.06 162)", "oklch(38% 0.08 162)", "oklch(50% 0.095 162)", "oklch(58% 0.1 162)", "oklch(70% 0.09 162)", "oklch(83% 0.065 162)", "oklch(95% 0.03 162)"] },
-      "accent":       { "role": "secondary", "displayName": "Brass",          "canonical": "#B98A2E", "cssVar": "--accent",      "tonalRamp": ["oklch(15% 0.04 85)", "oklch(27% 0.07 85)", "oklch(40% 0.1 85)", "oklch(52% 0.12 85)", "oklch(65% 0.13 85)", "oklch(76% 0.12 85)", "oklch(87% 0.08 85)", "oklch(95% 0.035 85)"] },
-      "accent-deep":  { "role": "secondary", "displayName": "Brass Deep",     "canonical": "#8F6A1F", "cssVar": "--accent-deep", "tonalRamp": ["oklch(15% 0.04 85)", "oklch(25% 0.07 85)", "oklch(36% 0.1 85)", "oklch(46% 0.115 85)", "oklch(55% 0.12 85)", "oklch(68% 0.11 85)", "oklch(82% 0.08 85)", "oklch(94% 0.035 85)"] },
-      "line":         { "role": "neutral",   "displayName": "Hairline",       "canonical": "rgba(20,32,28,.16)", "cssVar": "--line", "tonalRamp": ["rgba(20,32,28,.9)", "rgba(20,32,28,.72)", "rgba(20,32,28,.56)", "rgba(20,32,28,.42)", "rgba(20,32,28,.34)", "rgba(20,32,28,.24)", "rgba(20,32,28,.16)", "rgba(20,32,28,.08)"] },
-      "line-strong":  { "role": "neutral",   "displayName": "Hairline Strong", "canonical": "rgba(20,32,28,.34)", "cssVar": "--line-strong", "tonalRamp": ["rgba(20,32,28,.9)", "rgba(20,32,28,.72)", "rgba(20,32,28,.56)", "rgba(20,32,28,.42)", "rgba(20,32,28,.34)", "rgba(20,32,28,.24)", "rgba(20,32,28,.16)", "rgba(20,32,28,.08)"] },
-      "closed-clay":  { "role": "tertiary",  "displayName": "Closed Clay (hardcoded, no custom property)", "canonical": "#8A3B2E", "tonalRamp": ["oklch(15% 0.05 30)", "oklch(25% 0.08 30)", "oklch(34% 0.1 30)", "oklch(43% 0.11 30)", "oklch(55% 0.12 30)", "oklch(68% 0.1 30)", "oklch(82% 0.07 30)", "oklch(94% 0.03 30)"] }
+      "paper": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "#FBF8F2",
+        "cssVar": "--paper",
+        "tonalRamp": [
+          "oklch(20% 0.01 85)",
+          "oklch(32% 0.012 85)",
+          "oklch(45% 0.014 85)",
+          "oklch(58% 0.016 85)",
+          "oklch(71% 0.016 85)",
+          "oklch(84% 0.014 85)",
+          "oklch(93% 0.01 85)",
+          "oklch(98% 0.008 85)"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Mat",
+        "canonical": "#F3EEE4",
+        "cssVar": "--paper-2",
+        "tonalRamp": [
+          "oklch(20% 0.012 80)",
+          "oklch(32% 0.014 80)",
+          "oklch(45% 0.016 80)",
+          "oklch(58% 0.018 80)",
+          "oklch(71% 0.018 80)",
+          "oklch(84% 0.016 80)",
+          "oklch(90% 0.014 80)",
+          "oklch(95% 0.012 80)"
+        ]
+      },
+      "paper-3": {
+        "role": "neutral",
+        "displayName": "Counter",
+        "canonical": "#EAE3D6",
+        "cssVar": "--paper-3",
+        "tonalRamp": [
+          "oklch(20% 0.014 80)",
+          "oklch(32% 0.016 80)",
+          "oklch(45% 0.018 80)",
+          "oklch(58% 0.02 80)",
+          "oklch(71% 0.02 80)",
+          "oklch(82% 0.018 80)",
+          "oklch(88% 0.016 80)",
+          "oklch(92% 0.014 80)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#14201C",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "oklch(15% 0.015 170)",
+          "oklch(22% 0.015 170)",
+          "oklch(32% 0.015 170)",
+          "oklch(45% 0.015 170)",
+          "oklch(58% 0.014 170)",
+          "oklch(71% 0.012 170)",
+          "oklch(84% 0.01 170)",
+          "oklch(95% 0.006 170)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#5B6661",
+        "cssVar": "--muted",
+        "tonalRamp": [
+          "oklch(15% 0.012 170)",
+          "oklch(25% 0.012 170)",
+          "oklch(35% 0.012 170)",
+          "oklch(47% 0.012 170)",
+          "oklch(58% 0.012 170)",
+          "oklch(70% 0.01 170)",
+          "oklch(83% 0.008 170)",
+          "oklch(95% 0.005 170)"
+        ]
+      },
+      "ink-on-brand": {
+        "role": "neutral",
+        "displayName": "Paper on Cedar",
+        "canonical": "#F4F8F5",
+        "cssVar": "--ink-on-brand",
+        "tonalRamp": [
+          "oklch(15% 0.01 165)",
+          "oklch(27% 0.01 165)",
+          "oklch(40% 0.01 165)",
+          "oklch(53% 0.01 165)",
+          "oklch(66% 0.01 165)",
+          "oklch(80% 0.008 165)",
+          "oklch(92% 0.006 165)",
+          "oklch(97% 0.005 165)"
+        ]
+      },
+      "brand": {
+        "role": "primary",
+        "displayName": "Cedar",
+        "canonical": "#1E6B4F",
+        "cssVar": "--brand",
+        "tonalRamp": [
+          "oklch(15% 0.04 162)",
+          "oklch(25% 0.06 162)",
+          "oklch(36% 0.075 162)",
+          "oklch(47% 0.085 162)",
+          "oklch(58% 0.09 162)",
+          "oklch(70% 0.08 162)",
+          "oklch(83% 0.06 162)",
+          "oklch(95% 0.025 162)"
+        ]
+      },
+      "brand-deep": {
+        "role": "primary",
+        "displayName": "Cedar Deep",
+        "canonical": "#14523B",
+        "cssVar": "--brand-deep",
+        "tonalRamp": [
+          "oklch(15% 0.04 162)",
+          "oklch(22% 0.055 162)",
+          "oklch(30% 0.07 162)",
+          "oklch(39% 0.08 162)",
+          "oklch(50% 0.085 162)",
+          "oklch(64% 0.08 162)",
+          "oklch(80% 0.06 162)",
+          "oklch(94% 0.025 162)"
+        ]
+      },
+      "brand-lt": {
+        "role": "primary",
+        "displayName": "Cedar Light (declared, unused)",
+        "canonical": "#2F8A68",
+        "cssVar": "--brand-lt",
+        "tonalRamp": [
+          "oklch(15% 0.04 162)",
+          "oklch(26% 0.06 162)",
+          "oklch(38% 0.08 162)",
+          "oklch(50% 0.095 162)",
+          "oklch(58% 0.1 162)",
+          "oklch(70% 0.09 162)",
+          "oklch(83% 0.065 162)",
+          "oklch(95% 0.03 162)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Brass",
+        "canonical": "#B98A2E",
+        "cssVar": "--accent",
+        "tonalRamp": [
+          "oklch(15% 0.04 85)",
+          "oklch(27% 0.07 85)",
+          "oklch(40% 0.1 85)",
+          "oklch(52% 0.12 85)",
+          "oklch(65% 0.13 85)",
+          "oklch(76% 0.12 85)",
+          "oklch(87% 0.08 85)",
+          "oklch(95% 0.035 85)"
+        ]
+      },
+      "accent-deep": {
+        "role": "secondary",
+        "displayName": "Brass Deep",
+        "canonical": "#8F6A1F",
+        "cssVar": "--accent-deep",
+        "tonalRamp": [
+          "oklch(15% 0.04 85)",
+          "oklch(25% 0.07 85)",
+          "oklch(36% 0.1 85)",
+          "oklch(46% 0.115 85)",
+          "oklch(55% 0.12 85)",
+          "oklch(68% 0.11 85)",
+          "oklch(82% 0.08 85)",
+          "oklch(94% 0.035 85)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(20,32,28,.16)",
+        "cssVar": "--line",
+        "tonalRamp": [
+          "rgba(20,32,28,.9)",
+          "rgba(20,32,28,.72)",
+          "rgba(20,32,28,.56)",
+          "rgba(20,32,28,.42)",
+          "rgba(20,32,28,.34)",
+          "rgba(20,32,28,.24)",
+          "rgba(20,32,28,.16)",
+          "rgba(20,32,28,.08)"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(20,32,28,.34)",
+        "cssVar": "--line-strong",
+        "tonalRamp": [
+          "rgba(20,32,28,.9)",
+          "rgba(20,32,28,.72)",
+          "rgba(20,32,28,.56)",
+          "rgba(20,32,28,.42)",
+          "rgba(20,32,28,.34)",
+          "rgba(20,32,28,.24)",
+          "rgba(20,32,28,.16)",
+          "rgba(20,32,28,.08)"
+        ]
+      },
+      "closed-clay": {
+        "role": "tertiary",
+        "displayName": "Closed Clay (hardcoded, no custom property)",
+        "canonical": "#8A3B2E",
+        "tonalRamp": [
+          "oklch(15% 0.05 30)",
+          "oklch(25% 0.08 30)",
+          "oklch(34% 0.1 30)",
+          "oklch(43% 0.11 30)",
+          "oklch(55% 0.12 30)",
+          "oklch(68% 0.1 30)",
+          "oklch(82% 0.07 30)",
+          "oklch(94% 0.03 30)"
+        ]
+      },
+      "line-on-brand": {
+        "role": "structure",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(20,32,28,.34)",
+        "cssVar": "--line-strong",
+        "value": "rgba(255,255,255,.25)",
+        "note": "Hairline between fact rows on cedar and brass bands."
+      },
+      "line-on-brand-strong": {
+        "role": "structure",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(20,32,28,.34)",
+        "cssVar": "--line-strong",
+        "value": "rgba(255,255,255,.5)",
+        "note": "Ghost button border on cedar bands."
+      },
+      "wash-on-brand": {
+        "role": "state",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(20,32,28,.34)",
+        "cssVar": "--line-strong",
+        "value": "rgba(255,255,255,.1)",
+        "note": "Ghost button hover wash on cedar bands."
+      },
+      "highlight": {
+        "role": "structure",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(20,32,28,.34)",
+        "cssVar": "--line-strong",
+        "value": "rgba(255,255,255,.6)",
+        "note": "1px inset highlight on the sheet's top edge."
+      }
     },
     "typographyMeta": {
-      "display":  { "displayName": "Display",  "purpose": "The one page headline (.hero h1, .page-head h1, .thanks h1). Fustat 650, tracking -0.025em; one phrase may be cedar via em." },
-      "headline": { "displayName": "Headline", "purpose": "Section and band heads (.section-head h2, .band h2). Fustat 620, balanced wrapping, max 18ch in bands." },
-      "course":   { "displayName": "Course",   "purpose": "Sticky course heading over dish rows; aisle, place-card and ticket heads use the steps below it." },
-      "title":    { "displayName": "Title",    "purpose": "Dish names, market goods, ticket lines, radio-card labels, pricelist items. Fustat 600 at 1.15rem." },
-      "body":     { "displayName": "Body",     "purpose": "Descriptions, ledes, notes in the system sans, muted, capped at 52-60ch." },
-      "price":    { "displayName": "Price",    "purpose": "Every price: Red Hat Mono 500, tabular-nums, forced LTR, one step below the dish name. Estimated prices carry a brass-deep ~." },
-      "label":    { "displayName": "Label",    "purpose": "Mono labels: item codes, units, tags, counts, form labels, footer heads, the rail label, the stamp. 0.72-0.84rem with 0.05-0.14em tracking; uppercase only on the rail label, stamp and wordmark sub." }
+      "display": {
+        "displayName": "Display",
+        "purpose": "The one page headline (.hero h1, .page-head h1, .thanks h1). Fustat 650, tracking -0.025em; one phrase may be cedar via em."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section and band heads (.section-head h2, .band h2). Fustat 620, balanced wrapping, max 18ch in bands."
+      },
+      "course": {
+        "displayName": "Course",
+        "purpose": "Sticky course heading over dish rows; aisle, place-card and ticket heads use the steps below it."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Dish names, market goods, ticket lines, radio-card labels, pricelist items. Fustat 600 at 1.15rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions, ledes, notes in the system sans, muted, capped at 52-60ch."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Every price: Red Hat Mono 500, tabular-nums, forced LTR, one step below the dish name. Estimated prices carry a brass-deep ~."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Mono labels: item codes, units, tags, counts, form labels, footer heads, the rail label, the stamp. 0.72-0.84rem with 0.05-0.14em tracking; uppercase only on the rail label, stamp and wordmark sub."
+      }
     },
     "scriptFaces": [
-      { "lang": "ar", "dir": "rtl", "fontFamily": "Fustat, Noto Naskh Arabic, system-ui, sans-serif", "note": "html[dir=rtl] swaps --display and --sans to the Arabic stack; heading letter-spacing 0, line-height 1.3" },
-      { "lang": "fa", "dir": "rtl", "fontFamily": "Vazirmatn, Fustat, system-ui, sans-serif" },
-      { "lang": "ur", "dir": "rtl", "fontFamily": "Noto Nastaliq Urdu, Fustat, system-ui, sans-serif", "note": "body line-height 1.9" },
-      { "lang": "hi", "dir": "ltr", "fontFamily": "Noto Sans Devanagari, Fustat, system-ui, sans-serif" }
+      {
+        "lang": "ar",
+        "dir": "rtl",
+        "fontFamily": "Fustat, Noto Naskh Arabic, system-ui, sans-serif",
+        "note": "html[dir=rtl] swaps --display and --sans to the Arabic stack; heading letter-spacing 0, line-height 1.3"
+      },
+      {
+        "lang": "fa",
+        "dir": "rtl",
+        "fontFamily": "Vazirmatn, Fustat, system-ui, sans-serif"
+      },
+      {
+        "lang": "ur",
+        "dir": "rtl",
+        "fontFamily": "Noto Nastaliq Urdu, Fustat, system-ui, sans-serif",
+        "note": "body line-height 1.9"
+      },
+      {
+        "lang": "hi",
+        "dir": "ltr",
+        "fontFamily": "Noto Sans Devanagari, Fustat, system-ui, sans-serif"
+      }
     ],
     "shadows": [
-      { "name": "sheet",  "value": "0 10px 30px -12px rgba(20,32,28,.28), 0 2px 6px -2px rgba(20,32,28,.14)", "purpose": "The card on the counter; reused by the language menu, the toast, and a hovered place card." },
-      { "name": "sheet-highlight", "value": "inset 0 0 0 1px rgba(255,255,255,.6)", "purpose": "1px inset highlight on the sheet's ::before; reads as coated stock." },
-      { "name": "ticket", "value": "-20px 0 50px -30px rgba(20,32,28,.4)", "purpose": "The cart drawer sliding over the sheet; mirrored to 20px under RTL." },
-      { "name": "slip",   "value": "0 8px 18px -12px rgba(20,32,28,.35)", "purpose": "A review slip resting on the card; the only shadow inside the sheet, because the slip is a second piece of paper." },
-      { "name": "scrim",  "value": "rgba(20,32,28,.35) + backdrop-filter: blur(2px)", "purpose": "Under the open ticket only." }
+      {
+        "name": "sheet",
+        "value": "0 10px 30px -12px rgba(20,32,28,.28), 0 2px 6px -2px rgba(20,32,28,.14)",
+        "purpose": "The card on the counter; reused by the language menu, the toast, and a hovered place card."
+      },
+      {
+        "name": "sheet-highlight",
+        "value": "inset 0 0 0 1px rgba(255,255,255,.6)",
+        "purpose": "1px inset highlight on the sheet's ::before; reads as coated stock."
+      },
+      {
+        "name": "ticket",
+        "value": "-20px 0 50px -30px rgba(20,32,28,.4)",
+        "purpose": "The cart drawer sliding over the sheet; mirrored to 20px under RTL."
+      },
+      {
+        "name": "slip",
+        "value": "0 8px 18px -12px rgba(20,32,28,.35)",
+        "purpose": "A review slip resting on the card; the only shadow inside the sheet, because the slip is a second piece of paper."
+      },
+      {
+        "name": "scrim",
+        "value": "rgba(20,32,28,.35) + backdrop-filter: blur(2px)",
+        "purpose": "Under the open ticket only."
+      }
     ],
     "motion": [
-      { "name": "ease",   "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "The only easing." },
-      { "name": "fast",   "value": "180ms", "purpose": "Fills, borders, nav underline, toast." },
-      { "name": "slow",   "value": "420ms", "purpose": "Ticket drawer, scrim, order bar, reveal, bump/press/stamp keyframes." },
-      { "name": "bump",   "value": "scale 1 -> 1.06 -> 1 over var(--slow)", "purpose": "Cart count change." },
-      { "name": "press",  "value": "scale .9 -> 1.08 -> 1 over var(--slow)", "purpose": "Add stamp when an item lands in the ticket; fill goes cedar." },
-      { "name": "stamp",  "value": "opacity 0 -> 1, translateY(-6px) scale(.98) -> none", "purpose": "A new ticket line." },
-      { "name": "reveal", "value": "opacity 0 -> 1, translateY(12px) -> none, rootMargin -8%", "purpose": ".rv elements on intersection." },
-      { "name": "lattice-draw", "value": "stroke-dashoffset 1 -> 0 over 2.6s, 250ms stagger x5", "purpose": "Home hero geometry only (inline style in index.html)." },
-      { "name": "marquee-slide", "value": "translateX(calc(-50% - 8px)) over var(--marquee-dur, 70s) linear infinite; slide-rtl mirrors under RTL; paused on :hover and :focus-within", "purpose": "The review slips marquee; under reduced motion it becomes a scroll-snap row and the duplicate copy is hidden." },
-      { "name": "reduced-motion", "value": "animation: none; transition: none; .rv at rest", "purpose": "prefers-reduced-motion removes all motion." }
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "The only easing."
+      },
+      {
+        "name": "fast",
+        "value": "180ms",
+        "purpose": "Fills, borders, nav underline, toast."
+      },
+      {
+        "name": "slow",
+        "value": "420ms",
+        "purpose": "Ticket drawer, scrim, order bar, reveal, bump/press/stamp keyframes."
+      },
+      {
+        "name": "bump",
+        "value": "scale 1 -> 1.06 -> 1 over var(--slow)",
+        "purpose": "Cart count change."
+      },
+      {
+        "name": "press",
+        "value": "scale .9 -> 1.08 -> 1 over var(--slow)",
+        "purpose": "Add stamp when an item lands in the ticket; fill goes cedar."
+      },
+      {
+        "name": "stamp",
+        "value": "opacity 0 -> 1, translateY(-6px) scale(.98) -> none",
+        "purpose": "A new ticket line."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity 0 -> 1, translateY(12px) -> none, rootMargin -8%",
+        "purpose": ".rv elements on intersection."
+      },
+      {
+        "name": "lattice-draw",
+        "value": "stroke-dashoffset 1 -> 0 over 2.6s, 250ms stagger x5",
+        "purpose": "Home hero geometry only (inline style in index.html)."
+      },
+      {
+        "name": "marquee-slide",
+        "value": "translateX(calc(-50% - 8px)) over var(--marquee-dur, 70s) linear infinite; slide-rtl mirrors under RTL; paused on :hover and :focus-within",
+        "purpose": "The review slips marquee; under reduced motion it becomes a scroll-snap row and the duplicate copy is hidden."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none; .rv at rest",
+        "purpose": "prefers-reduced-motion removes all motion."
+      }
     ],
     "breakpoints": [
-      { "name": "aside-collapse", "value": "1040px", "note": "menu aside -> course-nav pills; footer 2 col; checkout stacks summary-first" },
-      { "name": "phone-sheet",    "value": "860px",  "note": "rail off, sheet flush and shadowless, body = paper, two-row top bar, order bar on, steps 2x2, single columns" },
-      { "name": "narrow",         "value": "520px",  "note": "dish row 84px photo with price + add under the name; goods 2 col; hero buttons full width" }
+      {
+        "name": "aside-collapse",
+        "value": "1040px",
+        "note": "menu aside -> course-nav pills; footer 2 col; checkout stacks summary-first"
+      },
+      {
+        "name": "phone-sheet",
+        "value": "860px",
+        "note": "rail off, sheet flush and shadowless, body = paper, two-row top bar, order bar on, steps 2x2, single columns"
+      },
+      {
+        "name": "narrow",
+        "value": "520px",
+        "note": "dish row 84px photo with price + add under the name; goods 2 col; hero buttons full width"
+      }
     ],
     "zIndex": [
-      { "name": "top", "value": 40 }, { "name": "orderbar", "value": 45 }, { "name": "lang-menu", "value": 50 },
-      { "name": "scrim", "value": 55 }, { "name": "ticket", "value": 60 }, { "name": "toast", "value": 70 }
+      {
+        "name": "top",
+        "value": 40
+      },
+      {
+        "name": "orderbar",
+        "value": 45
+      },
+      {
+        "name": "lang-menu",
+        "value": 50
+      },
+      {
+        "name": "scrim",
+        "value": 55
+      },
+      {
+        "name": "ticket",
+        "value": 60
+      },
+      {
+        "name": "toast",
+        "value": 70
+      }
     ]
   },
   "components": [
@@ -189,13 +563,41 @@
       "Five scripts, one card: Arabic, Farsi, and Urdu mirror the whole sheet right-to-left with their own faces; Hindi stays left-to-right in Devanagari; prices, codes, and phone numbers stay LTR Western digits inside isolated spans."
     ],
     "rules": [
-      { "name": "The Region Rule", "section": "colors", "body": "Cedar commits at region scale. A cedar surface is a whole band, bar, cell, or button, never a tinted panel, a 10% wash behind a section, or a pale green background. The one cedar tint in the build (rgba(30,107,79,.08) behind a selected radio card) is paired with a full cedar border; tint never carries state alone." },
-      { "name": "The Brass Rule", "section": "colors", "body": "Brass means \"market\" or \"not yet confirmed.\" A brass field appears only on market surfaces; a brass mark appears only as a stamp, a dashed tag, or a ~. Brass never colors a heading, a price, or body copy." },
-      { "name": "The Two-Ink Rule", "section": "colors", "body": "Type is ink or muted. Cedar, brass, and clay may color a word only when they carry a meaning (the hero em, an open/closed state, a provisional label, a link)." },
-      { "name": "The Three-Voice Rule", "section": "typography", "body": "Fustat speaks names and headings, the system sans speaks sentences, Red Hat Mono speaks numbers and labels. No fourth face enters a surface, and no voice borrows another's job: a price is never set in Fustat, a sentence is never set in mono." },
-      { "name": "The Quiet Price Rule", "section": "typography", "body": "Size carries hierarchy: the dish name at title size, the price one step smaller in tabular figures, flush to the end of the row. A price is never larger, bolder, or more colorful than the name beside it." },
-      { "name": "The Script Rule", "section": "typography", "body": "Right-to-left pages drop heading letter-spacing to 0 and relax heading line-height to 1.3; Urdu body copy runs at 1.9. Prices, item codes, tags, and phone numbers stay LTR Western digits inside unicode-bidi: isolate spans, in every language." },
-      { "name": "The One Sheet Rule", "section": "elevation", "body": "Inside the sheet nothing casts a shadow unless it is itself a piece of paper laid on the card (a review slip). Separation is a hairline (line), a dashed hairline, a mat (paper-2), or a 1px line-strong outline. Any other shadow means the element has left the card." }
+      {
+        "name": "The Region Rule",
+        "section": "colors",
+        "body": "Cedar commits at region scale. A cedar surface is a whole band, bar, cell, or button, never a tinted panel, a 10% wash behind a section, or a pale green background. The one cedar tint in the build (rgba(30,107,79,.08) behind a selected radio card) is paired with a full cedar border; tint never carries state alone."
+      },
+      {
+        "name": "The Brass Rule",
+        "section": "colors",
+        "body": "Brass means \"market\" or \"not yet confirmed.\" A brass field appears only on market surfaces; a brass mark appears only as a stamp, a dashed tag, or a ~. Brass never colors a heading, a price, or body copy."
+      },
+      {
+        "name": "The Two-Ink Rule",
+        "section": "colors",
+        "body": "Type is ink or muted. Cedar, brass, and clay may color a word only when they carry a meaning (the hero em, an open/closed state, a provisional label, a link)."
+      },
+      {
+        "name": "The Three-Voice Rule",
+        "section": "typography",
+        "body": "Fustat speaks names and headings, the system sans speaks sentences, Red Hat Mono speaks numbers and labels. No fourth face enters a surface, and no voice borrows another's job: a price is never set in Fustat, a sentence is never set in mono."
+      },
+      {
+        "name": "The Quiet Price Rule",
+        "section": "typography",
+        "body": "Size carries hierarchy: the dish name at title size, the price one step smaller in tabular figures, flush to the end of the row. A price is never larger, bolder, or more colorful than the name beside it."
+      },
+      {
+        "name": "The Script Rule",
+        "section": "typography",
+        "body": "Right-to-left pages drop heading letter-spacing to 0 and relax heading line-height to 1.3; Urdu body copy runs at 1.9. Prices, item codes, tags, and phone numbers stay LTR Western digits inside unicode-bidi: isolate spans, in every language."
+      },
+      {
+        "name": "The One Sheet Rule",
+        "section": "elevation",
+        "body": "Inside the sheet nothing casts a shadow unless it is itself a piece of paper laid on the card (a review slip). Separation is a hairline (line), a dashed hairline, a mat (paper-2), or a 1px line-strong outline. Any other shadow means the element has left the card."
+      }
     ],
     "dos": [
       "Do put every new surface inside the one sheet, with the ruler rail and the top bar, inset by --card-pad; a new page is a new region of the same card, not a new card.",

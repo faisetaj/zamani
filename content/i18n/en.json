@@ -292,5 +292,6 @@
  "checkout.emptyErr": "Your ticket is empty.",
  "checkout.failed": "We couldn't send your order. Please call the restaurant and we'll take it by phone.",
  "rev.h2": "What the neighbors say",
- "rev.p": "Public reviews, in their own words. <a href=\"https://www.google.com/maps/search/?api=1&query=Zamani+Grill+9440+Louetta+Rd+%233+Spring+TX+77379\" target=\"_blank\" rel=\"noopener\">Read all 700+ on Google</a>."
+ "rev.p": "Public reviews, in their own words. <a href=\"https://www.google.com/maps/search/?api=1&query=Zamani+Grill+9440+Louetta+Rd+%233+Spring+TX+77379\" target=\"_blank\" rel=\"noopener\">Read all 700+ on Google</a>.",
+ "hero.first": "First course"
 }

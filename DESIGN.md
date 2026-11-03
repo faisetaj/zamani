@@ -15,6 +15,10 @@ colors:
   accent-deep: "#8F6A1F"
   line: "rgba(20,32,28,.16)"
   line-strong: "rgba(20,32,28,.34)"
+  line-on-brand: "rgba(255,255,255,.25)"
+  line-on-brand-strong: "rgba(255,255,255,.5)"
+  wash-on-brand: "rgba(255,255,255,.1)"
+  highlight: "rgba(255,255,255,.6)"
   closed-clay: "#8A3B2E"
 typography:
   display:
@@ -57,6 +61,79 @@ typography:
     fontWeight: 500
     lineHeight: 1
     letterSpacing: "0.08em"
+  label-md:
+    fontFamily: "Red Hat Mono, ui-monospace, Menlo, Consolas, monospace"
+    fontSize: "0.74rem"
+    fontWeight: 500
+  label-lg:
+    fontFamily: "Red Hat Mono, ui-monospace, Menlo, Consolas, monospace"
+    fontSize: "0.78rem"
+    fontWeight: 500
+  fine:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+    fontSize: "0.85rem"
+    fontWeight: 400
+    lineHeight: 1.5
+  meta:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+    fontSize: "0.9rem"
+    fontWeight: 400
+    lineHeight: 1.5
+  secondary:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+    fontSize: "0.95rem"
+    fontWeight: 400
+    lineHeight: 1.5
+  title-sm:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "1.05rem"
+    fontWeight: 600
+  grand:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "1.1rem"
+    fontWeight: 600
+  ticket-head:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "1.2rem"
+    fontWeight: 620
+  lede:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
+    fontSize: "clamp(1.05rem, 1.5vw, 1.25rem)"
+    fontWeight: 400
+    lineHeight: 1.5
+  place:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "1.5rem"
+    fontWeight: 620
+  fact:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "1.6rem"
+    fontWeight: 600
+    lineHeight: 1.15
+  aisle:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "clamp(1.4rem, 2.2vw, 1.9rem)"
+    fontWeight: 620
+  reviews-head:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "clamp(1.6rem, 2.8vw, 2.3rem)"
+    fontWeight: 620
+  checkout-head:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "clamp(1.9rem, 3.6vw, 2.8rem)"
+    fontWeight: 620
+  band-head:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "clamp(1.9rem, 3.6vw, 3rem)"
+    fontWeight: 620
+  page-head:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "clamp(2.2rem, 4.6vw, 3.8rem)"
+    fontWeight: 650
+  thanks-head:
+    fontFamily: "Fustat, system-ui, sans-serif"
+    fontSize: "clamp(2.2rem, 5vw, 4rem)"
+    fontWeight: 650
 rounded:
   stamp: "2px"
   sm: "4px"
@@ -307,7 +384,8 @@ Warm bright card stock, a green-black ink, one cedar green that behaves like a s
 - **Title** (Fustat 600, 1.15rem; 1.05rem in the hero list and below 520px): the dish name, the market good name, a ticket line name, a radio-card label, a pricelist item. Carries its item code as a 0.72rem mono chip before it.
 - **Body** (system sans 400, 1rem/1.55): descriptions and notes, muted, capped at 58ch under a dish and 52–60ch in ledes. The lede steps up to `clamp(1.05rem, 1.5vw, 1.25rem)` at 1.5 line-height.
 - **Price** (Red Hat Mono 500, 1.05rem, tabular, tracking -0.01em, forced LTR): one step below the dish name, never bolder than it. Variant prices step down to 0.95rem with a 0.72rem sans size label. An estimated price carries a brass-deep `~`.
-- **Label** (Red Hat Mono 500, 0.72–0.84rem, tracking 0.05–0.14em, uppercase only on the rail label, the stamp, and the wordmark's "Grill & Market"): item codes, units, tags, counts, footer and aside headings, form labels (0.84rem, 0.01em, muted), the language stamp, the ticket count.
+- **Small text** (system sans 400): three steps only, 0.85rem fine print, 0.9rem meta, 0.95rem secondary body; nothing between them.
+- **Label** (Red Hat Mono 500, 0.72–0.85rem, tracking 0.05–0.14em, uppercase only on the rail label, the stamp, and the wordmark's "Grill & Market"): item codes, units, tags, counts, footer and aside headings, form labels (0.84rem, 0.01em, muted), the language stamp, the ticket count.
 
 ### Named Rules
 **The Three-Voice Rule.** Fustat speaks names and headings, the system sans speaks sentences, Red Hat Mono speaks numbers and labels. No fourth face enters a surface, and no voice borrows another's job: a price is never set in Fustat, a sentence is never set in mono.
