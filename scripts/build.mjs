@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = process.env.SITE_URL || "https://zamanigrill.com";
 const read = f => JSON.parse(readFileSync(join(ROOT, "content", f), "utf8"));
-const menu = read("menu.json"), market = read("market.json"), locs = read("locations.json");
+const menu = read("menu.json"), market = read("market.json"), locs = read("locations.json"), reviews = read("reviews.json");
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const money = n => "$" + Number(n).toFixed(2);
 const attr = o => esc(JSON.stringify(o));
@@ -55,6 +55,16 @@ function renderCourseNav() {
 function renderFeatured(ids, prefix = "") {
   const all = new Map(); menu.categories.forEach(c => c.items.forEach(i => all.set(i.id, i)));
   return ids.map(id => all.get(id)).filter(Boolean).map(i => dishRow(i, { prefix })).join("\n");
+}
+
+/* ---------- reviews ---------- */
+const STAR = '<svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z"/></svg>';
+function renderReviews() {
+  const list = reviews.reviews || [];
+  if (!list.length) return "";
+  const slip = r => `<article class="slip" role="listitem"><div class="stars" aria-label="${r.rating} out of 5">${STAR.repeat(Math.max(1, Math.min(5, Math.round(r.rating || 5))))}</div><blockquote lang="en">${esc(r.quote)}</blockquote><footer><b>${esc(r.name)}</b><span>${esc(r.source)}${r.date ? " · " + esc(r.date) : ""}</span></footer></article>`;
+  const once = list.map(slip).join("");
+  return once + `<div class="marquee-copy" aria-hidden="true" style="display:contents">${once.replace(/ role="listitem"/g, "")}</div>`;
 }
 
 /* ---------- market ---------- */
@@ -182,7 +192,7 @@ function renderTicket(prefix) {
 const blocks = {
   "menu": p => renderMenu(p), "menu-nav": () => renderMenuNav(), "course-nav": () => renderCourseNav(),
   "featured": p => renderFeatured(["A25", "H20", "B5", "M7", "K3", "H17"], p), "hero-dishes": p => renderFeatured(["M2", "M8", "F1"], p),
-  "market": p => renderMarket(p), "places": (p, c) => renderPlaces(p, c.page === "locations" ? "h2" : "h3"), "footer-nap": p => renderFooterNap(p),
+  "market": p => renderMarket(p), "reviews": () => renderReviews(), "places": (p, c) => renderPlaces(p, c.page === "locations" ? "h2" : "h3"), "footer-nap": p => renderFooterNap(p),
   "jsonld-home": () => renderJsonLd("home"), "jsonld-menu": () => renderJsonLd("menu"),
   "jsonld-louetta": () => renderJsonLd("place", "louetta"), "jsonld-riley-fuzzel": () => renderJsonLd("place", "riley-fuzzel"),
   "jsonld-locations": () => renderJsonLd("home"),

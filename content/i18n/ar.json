@@ -290,5 +290,7 @@
  "rf.h.3a": "لويتا",
  "rf.band.h2": "اطلب لحمك مسبقًا وتجنّب الانتظار عند الكاونتر.",
  "rf.band.p": "اختر رايلي فوزل متجرًا للاستلام عند الدفع. نقطّعه طازجًا ونجهّزه ملفوفًا عند وصولك.",
- "foot.confirming": "الرقم قيد التأكيد"
+ "foot.confirming": "الرقم قيد التأكيد",
+ "rev.h2": "ماذا يقول الجيران",
+ "rev.p": "آراء منشورة، بكلماتهم. <a href=\"https://www.google.com/maps/search/?api=1&query=Zamani+Grill+9440+Louetta+Rd+%233+Spring+TX+77379\" target=\"_blank\" rel=\"noopener\">اقرأ أكثر من 700 تقييم على غوغل</a>."
 }

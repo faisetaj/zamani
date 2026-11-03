@@ -1,0 +1,97 @@
+{
+ "note": "Real public reviews only, verbatim excerpts, first name + initial. Never invent one. Replace/extend with Google Business Profile reviews once the owner grants GBP access (Google reviews are the richest source: 700+).",
+ "summary": {
+  "google": {
+   "rating": 4.5,
+   "count": "700+",
+   "url": "https://www.google.com/maps/search/?api=1&query=Zamani+Grill+9440+Louetta+Rd+%233+Spring+TX+77379"
+  },
+  "doordash": {
+   "rating": 4.8,
+   "count": "1,000+"
+  }
+ },
+ "reviews": [
+  {
+   "quote": "Amazing food and customer service! The best shawarma in Houston!",
+   "name": "Muhammad I.",
+   "rating": 5,
+   "date": "2020",
+   "source": "Zabihah",
+   "location": "louetta",
+   "url": "https://www.zabihah.com/restaurants/c9fc004b-7767-11ef-95ae-6045bdeb9f57/zamani-spring-tx"
+  },
+  {
+   "quote": "Best food amazing staff , big variety of middle eastern food and Eastern Europe Place is clean and friendly",
+   "name": "Jubran T.",
+   "rating": 5,
+   "date": "2025",
+   "source": "Yelp via Yahoo · Riley Fuzzel",
+   "location": "riley-fuzzel",
+   "url": "https://local.yahoo.com/info-240352929-zamani-2-international-market-spring/"
+  },
+  {
+   "quote": "This is a great store with a lot of different products from the Balkans, East Europe, Middle East and more. The cheese is amazing",
+   "name": "Roxy P.",
+   "rating": 5,
+   "date": "2026",
+   "source": "Yelp via Yahoo · Riley Fuzzel",
+   "location": "riley-fuzzel",
+   "url": "https://local.yahoo.com/info-240352929-zamani-2-international-market-spring/"
+  },
+  {
+   "quote": "The shawarma was great! ... Overall, two thumbs up.",
+   "name": "Zain M., Zain's Halal Reviews",
+   "rating": 4,
+   "date": "2015",
+   "source": "Blog",
+   "location": "louetta",
+   "url": "https://zainshalalreviews.blogspot.com/2015/03/zamani-mediterranean-grill-some-good.html"
+  },
+  {
+   "quote": "Came here for the first time. Has a good variety of spices and international snacks. I like the Russian wafers they have, my go to purchase.",
+   "name": "Nessa H.",
+   "rating": 5,
+   "date": "2026",
+   "source": "Yelp via Yahoo · Riley Fuzzel",
+   "location": "riley-fuzzel",
+   "url": "https://local.yahoo.com/info-240352929-zamani-2-international-market-spring/"
+  },
+  {
+   "quote": "Good platters. I liked their sauces that complement the food very well. They have good beef and Chicken shwarma / platters.",
+   "name": "Muazzam S.",
+   "rating": 4,
+   "date": "2017",
+   "source": "Zabihah",
+   "location": "louetta",
+   "url": "https://www.zabihah.com/restaurants/c9fc004b-7767-11ef-95ae-6045bdeb9f57/zamani-spring-tx"
+  },
+  {
+   "quote": "This is one of the better Arabic restaurants in Houston. Ive been to a lot of Arabic restaurants and this one is one of the best.",
+   "name": "Halal Foodie",
+   "rating": 5,
+   "date": "2008",
+   "source": "Zabihah",
+   "location": "louetta",
+   "url": "https://www.zabihah.com/restaurants/c9fc004b-7767-11ef-95ae-6045bdeb9f57/zamani-spring-tx"
+  },
+  {
+   "quote": "It's very casual but very clean. I've seen a lot of non-Muslims that eat here, too, so anyone with a Western taste will like it as well.",
+   "name": "M. O.",
+   "rating": 4,
+   "date": "2005",
+   "source": "Zabihah",
+   "location": "louetta",
+   "url": "https://www.zabihah.com/restaurants/c9fc004b-7767-11ef-95ae-6045bdeb9f57/zamani-spring-tx"
+  },
+  {
+   "quote": "Good, fast food style. The kebab/shwarma sandwiches and platters are good, and reasonably priced.",
+   "name": "Irfan A.",
+   "rating": 4,
+   "date": "2005",
+   "source": "Zabihah",
+   "location": "louetta",
+   "url": "https://www.zabihah.com/restaurants/c9fc004b-7767-11ef-95ae-6045bdeb9f57/zamani-spring-tx"
+  }
+ ]
+}

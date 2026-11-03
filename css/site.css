@@ -330,6 +330,27 @@ fieldset{border:0;padding:0;margin:0;display:grid;gap:10px}
 .good .ds{color:var(--muted);font-size:.88rem}
 .good .unit{font:400 .74rem/1 var(--mono);color:var(--muted);letter-spacing:.04em}
 
+/* ---------- reviews: paper slips sliding along the counter ---------- */
+.reviews{padding:clamp(36px,5vw,64px) 0 clamp(28px,4vw,48px);border-bottom:1px solid var(--line);overflow:hidden}
+.reviews .section-head{padding:0 var(--card-pad);margin-bottom:22px}
+.reviews .section-head h2{font-size:clamp(1.6rem,2.8vw,2.3rem)}
+.reviews .section-head p a{color:var(--brand-deep)}
+.marquee{display:flex;gap:16px;width:max-content;padding:8px var(--card-pad);animation:slide var(--marquee-dur,70s) linear infinite}
+.marquee:hover,.marquee:focus-within{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(calc(-50% - 8px))}}
+html[dir="rtl"] .marquee{animation-name:slide-rtl}
+@keyframes slide-rtl{to{transform:translateX(calc(50% + 8px))}}
+.slip{flex:none;width:min(320px,78vw);background:var(--paper);border:1px solid var(--line-strong);border-radius:var(--r);padding:18px 18px 16px;display:grid;gap:10px;align-content:start;
+  box-shadow:0 8px 18px -12px rgba(20,32,28,.35);transform:rotate(var(--tilt,0deg))}
+.slip:nth-child(3n+1){--tilt:-.6deg}.slip:nth-child(3n+2){--tilt:.5deg}.slip:nth-child(3n){--tilt:-.3deg}
+.slip .stars{display:flex;gap:2px}
+.slip .stars .star{width:14px;height:14px;margin:0}
+.slip blockquote{margin:0;font-size:.98rem;line-height:1.5;direction:ltr;text-align:start;unicode-bidi:isolate}
+.slip blockquote::before{content:"\201C";color:var(--accent);font:700 1.6rem/0 var(--display);vertical-align:-.35em;margin-inline-end:.1em}
+.slip footer{display:grid;gap:2px;font:500 .74rem/1.35 var(--mono);color:var(--muted);letter-spacing:.02em;direction:ltr;margin-top:auto}
+.slip footer b{color:var(--ink);font-weight:600}
+@media (prefers-reduced-motion:reduce){.reviews{overflow-x:auto;scroll-snap-type:x mandatory}.marquee{animation:none}.slip{scroll-snap-align:start}.marquee-copy{display:none!important}}
+
 /* ---------- proof strip ---------- */
 .proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border-block:1px solid var(--line)}
 .proof > div{background:var(--paper);padding:22px var(--card-pad);display:grid;gap:4px}
