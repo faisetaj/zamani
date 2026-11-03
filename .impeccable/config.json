@@ -1,0 +1,102 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.365Z",
+        "reason": "User confirmed: Faisel chose 'Light editorial (Authyr-style), warm off-white paper' in the build questionnaire on 2026-11-03; paper #FBF8F2 is the pinned world"
+      },
+      {
+        "rule": "overused-font",
+        "value": "helvetica",
+        "createdAt": "2026-11-03T11:52:51.402Z",
+        "reason": "Agent: client-site design-system contract puts body copy in the system sans stack; display is Fustat, labels Red Hat Mono"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.433Z",
+        "reason": "Agent: the repeating hairlines are the menu card's ruler rail, a named element of the locked Levant Menu Card direction (seed 0db87a8c)"
+      },
+      {
+        "rule": "gpt-thin-border-wide-shadow",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.464Z",
+        "reason": "Agent: the single sheet-on-counter card uses a 1px inset highlight plus a soft offset shadow as its one elevation; no other element pairs both"
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.495Z",
+        "reason": "Agent: html/body overflow-x:clip stops the off-canvas cart drawer (translateX 104%) from creating horizontal scroll on phones and in RTL; nothing positioned needs to escape html"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.526Z",
+        "reason": "Agent: flagged wrappers (.proof, .band, .steps, band-grid columns) carry no text themselves; each text-bearing child has 12-56px of its own padding, verified in screenshots"
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.558Z",
+        "reason": "Agent: 0.05-0.14em tracking is applied only to short mono labels (rail label, stamp, item codes, footer headings), never to body copy"
+      },
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.588Z",
+        "reason": "Agent: 11.84px is the mono label size for item codes, units and tags, above the 11px functional floor; body copy is 16px"
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "*.html",
+          "order/*/index.html",
+          "tx/spring/*/index.html"
+        ],
+        "createdAt": "2026-11-03T11:52:51.620Z",
+        "reason": "Agent: the only uppercase run is the vertical rail label 'Market · Louetta & Riley Fuzzel', a label not body text"
+      }
+    ]
+  }
+}
