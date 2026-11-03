@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Request a Website Change — Zamani Grill &amp; Market</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fustat:wght@500;650;700&family=Red+Hat+Mono:wght@400;500&display=swap">
+<style>
+  /* ── BRAND TOKENS — the only block to customize per client ───────────── */
+  :root{
+    --paper:#FBF8F2; --ink:#14201C; --muted:#5B6661;
+    --brand:#1E6B4F; --brand-deep:#14523B; --brand-lt:#2F8A68; --accent:#B98A2E;
+    --line:rgba(0,0,0,.16);
+    --stage:#EAE3D6;
+    --serif:"Fustat",system-ui,sans-serif;
+    --mono:"Red Hat Mono",ui-monospace,Menlo,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  /* ────────────────────────────────────────────────────────────────────── */
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{overflow-x:clip}
+  body{background:var(--stage);min-height:100svh;color:#fff;font-family:var(--sans);
+    font-size:1rem;line-height:1.55;-webkit-font-smoothing:antialiased;
+    padding:clamp(1.25rem,4vw,3rem)}
+  .brand{display:flex;align-items:center;gap:.6rem;margin-bottom:1.5rem;max-width:44rem;
+    margin-inline:auto}
+  .brand img{width:2.2rem;height:auto}
+  .brand b{font-family:var(--serif);font-weight:600;font-size:1rem}
+  .card{max-width:44rem;margin:0 auto clamp(1rem,5vh,3rem);background:var(--paper);
+    color:var(--ink);padding:clamp(1.5rem,4vw,2.75rem);border-top:4px solid transparent;
+    border-image:linear-gradient(90deg,var(--brand),var(--accent)) 1}
+  .mono{font-family:var(--mono);font-size:.78rem;letter-spacing:.05em;text-transform:uppercase}
+  h1{font-family:var(--serif);font-weight:640;letter-spacing:-.03em;
+    font-size:clamp(1.7rem,5vw,2.4rem);line-height:1.1}
+  .sub{color:var(--muted);margin-top:.75rem;max-width:34rem;text-wrap:pretty}
+  .eyebrow{color:var(--brand-deep);margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}
+  .eyebrow::before{content:"";width:2rem;height:1px;background:var(--brand)}
+  form{margin-top:2rem;display:grid;gap:1.25rem}
+  label{display:grid;gap:.45rem}
+  label>span,legend{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--brand-deep)}
+  input[type=text],input[type=email],select,textarea{
+    font-family:var(--sans);font-size:1rem;color:var(--ink);background:#fff;
+    border:1px solid var(--line);padding:.75rem .9rem;width:100%;border-radius:0;
+    transition:border-color .2s,box-shadow .2s}
+  input:focus,select:focus,textarea:focus,button:focus-visible{outline:none;
+    border-color:var(--brand);box-shadow:0 0 0 3px color-mix(in srgb,var(--brand) 22%,transparent)}
+  textarea{min-height:4.5rem;resize:vertical}
+  .hint{font-size:.8rem;color:var(--muted);text-transform:none;letter-spacing:0;
+    font-family:var(--sans)}
+  /* ── request rows ── */
+  fieldset{border:0}
+  .ops{display:grid;gap:1rem}
+  .op{border:1px solid var(--line);border-left:3px solid var(--brand);padding:1rem;
+    background:color-mix(in srgb,var(--brand) 4%,#fff);display:grid;gap:.75rem}
+  .op__head{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+  .op__n{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.06em}
+  .op__type{flex:1;min-width:11rem;font-weight:600}
+  .op__kill{background:none;border:1px solid var(--line);color:var(--muted);cursor:pointer;
+    font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;padding:.35rem .6rem;
+    transition:color .2s,border-color .2s}
+  .op__kill:hover{color:#B3261E;border-color:#B3261E}
+  .op__fields{display:grid;gap:.75rem}
+  .add{background:none;border:1px dashed var(--brand);color:var(--brand-deep);cursor:pointer;
+    font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;
+    padding:.8rem;width:100%;transition:background .2s}
+  .add:hover{background:color-mix(in srgb,var(--brand) 8%,transparent)}
+  button[type=submit]{font-family:var(--sans);font-size:1rem;font-weight:600;cursor:pointer;
+    border:0;background:linear-gradient(100deg,var(--brand-lt),var(--accent),var(--brand-lt));
+    background-size:220% 100%;color:#fff;padding:.9rem 1.6rem;justify-self:start;
+    transition:background-position .5s,transform .2s,box-shadow .3s}
+  button[type=submit]:hover{background-position:95% 0;transform:translateY(-2px);
+    box-shadow:0 6px 26px color-mix(in srgb,var(--brand) 40%,transparent)}
+  .foot{margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--line);
+    color:var(--muted);font-family:var(--mono);font-size:.72rem;line-height:1.8}
+  .ok{display:none}
+  .err{color:#B3261E;font-size:.85rem;display:none}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+  <div class="brand"><img src="img/brand/mark.svg" alt=""><b>Zamani Grill &amp; Market — Website Care</b></div>
+
+  <div class="card" id="formcard">
+    <p class="mono eyebrow">Website change request</p>
+    <h1>Tell us what to change.<br>We'll handle the rest.</h1>
+    <p class="sub">Add one line for each thing you want changed. Plain words are fine — you
+      don't need to know how the website works. You'll get a preview link to approve before
+      anything goes live.</p>
+
+    <form name="site-update" method="POST" action="/updates.html?sent=1"
+          data-netlify="true" netlify-honeypot="bot-field"
+          enctype="multipart/form-data" id="reqform">
+      <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <input type="hidden" name="site" value="zamani">
+      <input type="hidden" name="operations" id="ops-json">
+      <input type="hidden" name="operations_text" id="ops-text">
+
+      <label><span>Your name</span>
+        <input type="text" name="name" required autocomplete="name" placeholder="Your name">
+      </label>
+
+      <label><span>Email for the preview link</span>
+        <input type="email" name="email" required autocomplete="email" placeholder="you@example.com">
+      </label>
+
+      <fieldset>
+        <legend>What needs to change?</legend>
+        <div class="ops" id="ops"></div>
+        <p class="err" id="operr">Add at least one change, and fill in its details.</p>
+        <button type="button" class="add" id="addop">+ Add another change</button>
+      </fieldset>
+
+      <label><span>Attach an image <span class="hint">(optional)</span></span>
+        <input type="file" name="attachment" accept="image/*">
+        <span class="hint">New flyer, photo, or logo — up to 8&nbsp;MB.</span>
+      </label>
+
+      <label><span>When does this need to be live?</span>
+        <input type="text" name="deadline" placeholder="e.g. before Friday / no rush">
+      </label>
+
+      <button type="submit">Submit change request</button>
+    </form>
+
+    <p class="foot">Every change gets a preview before it goes live.<br>
+      Urgent? Call or text Faisel directly.</p>
+  </div>
+
+  <div class="card ok" id="okcard">
+    <p class="mono eyebrow">Request received</p>
+    <h1>Got it.</h1>
+    <p class="sub">Your request is in the queue. You'll get a preview link by email — once
+      you're happy with it, it goes live within minutes.</p>
+    <p class="foot"><a href="/updates" style="color:var(--brand-deep)">Submit another request</a>
+      · <a href="/" style="color:var(--brand-deep)">Back to the site</a></p>
+  </div>
+
+<script>
+(function(){
+  if (new URLSearchParams(location.search).get('sent')) {
+    document.getElementById('formcard').style.display = 'none';
+    document.getElementById('okcard').style.display = 'block';
+    return;
+  }
+
+  // Each operation type declares the fields it needs. Keeping the shape declarative
+  // means the agent receives unambiguous instructions instead of a wall of prose.
+  var TYPES = {
+    change:  { label:'Change something',      fields:[
+                 ['from','Change this',  'The exact words on the site now — copy them if you can'],
+                 ['to',  'To this',      'Exactly what it should say instead']] },
+    add:     { label:'Add something',         fields:[
+                 ['what', 'Add this',    'The new text, item, price, or photo caption'],
+                 ['where','Where it goes','e.g. under the services list, at the top of the page']] },
+    remove:  { label:'Remove something',      fields:[
+                 ['what','Remove this',  'What should come off the site, and where it is']] },
+    image:   { label:'Swap a photo',          fields:[
+                 ['which','Which photo', 'Where the photo is now — e.g. the big photo at the top'],
+                 ['note', 'Notes',       'Attach the new photo below. Anything else we should know?']] },
+    post:    { label:'New post / announcement', fields:[
+                 ['title','Title',       'Headline for the announcement'],
+                 ['body', 'What it says','Write it however you like — we’ll format it']] },
+    other:   { label:'Something else',        fields:[
+                 ['details','Describe it','Tell us in plain words what you need']] }
+  };
+
+  var wrap = document.getElementById('ops'), n = 0;
+
+  function row(){
+    n++;
+    var el = document.createElement('div');
+    el.className = 'op';
+    var opts = Object.keys(TYPES).map(function(k){
+      return '<option value="'+k+'">'+TYPES[k].label+'</option>'; }).join('');
+    el.innerHTML =
+      '<div class="op__head">' +
+        '<span class="op__n">#'+n+'</span>' +
+        '<select class="op__type" aria-label="Type of change">'+opts+'</select>' +
+        '<button type="button" class="op__kill">Remove</button>' +
+      '</div><div class="op__fields"></div>';
+
+    var sel = el.querySelector('.op__type'), fields = el.querySelector('.op__fields');
+
+    function render(){
+      fields.innerHTML = '';
+      TYPES[sel.value].fields.forEach(function(f){
+        var l = document.createElement('label');
+        l.innerHTML = '<span>'+f[1]+'</span><textarea data-k="'+f[0]+'" rows="2" ' +
+                      'placeholder="'+f[2]+'"></textarea>';
+        fields.appendChild(l);
+      });
+    }
+    sel.addEventListener('change', render);
+    el.querySelector('.op__kill').addEventListener('click', function(){
+      el.remove();
+      if (!wrap.children.length) row();
+      renumber();
+    });
+    render();
+    wrap.appendChild(el);
+    renumber();
+  }
+
+  function renumber(){
+    [].forEach.call(wrap.children, function(el,i){
+      el.querySelector('.op__n').textContent = '#'+(i+1); });
+    n = wrap.children.length;
+  }
+
+  function collect(){
+    return [].map.call(wrap.children, function(el){
+      var type = el.querySelector('.op__type').value, o = { type:type };
+      [].forEach.call(el.querySelectorAll('[data-k]'), function(t){
+        o[t.dataset.k] = t.value.trim(); });
+      return o;
+    }).filter(function(o){
+      return Object.keys(o).some(function(k){ return k!=='type' && o[k]; });
+    });
+  }
+
+  document.getElementById('addop').addEventListener('click', row);
+  row();
+
+  document.getElementById('reqform').addEventListener('submit', function(e){
+    var ops = collect(), err = document.getElementById('operr');
+    if (!ops.length){
+      e.preventDefault();
+      err.style.display = 'block';
+      wrap.querySelector('textarea').focus();
+      return;
+    }
+    err.style.display = 'none';
+    document.getElementById('ops-json').value = JSON.stringify(ops);
+    document.getElementById('ops-text').value = ops.map(function(o,i){
+      var lines = Object.keys(o).filter(function(k){ return k!=='type' && o[k]; })
+        .map(function(k){
+          var f = TYPES[o.type].fields.filter(function(x){ return x[0]===k; })[0];
+          return '  ' + ((f && f[1]) || k) + ': ' + o[k];
+        });
+      return (i+1)+'. ['+TYPES[o.type].label.toUpperCase()+']\n'+lines.join('\n');
+    }).join('\n\n');
+  });
+})();
+</script>
+</body>
+</html>

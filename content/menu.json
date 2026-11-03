@@ -1,0 +1,1110 @@
+{
+ "currency": "USD",
+ "taxRate": 0.0825,
+ "taxNote": "8.25% estimated Harris County sales tax; confirm with owner",
+ "pricesVerified": false,
+ "pricesSource": "zamanigrill.com menu page, captured 2026-11-03 (owner last edited Sept 2025)",
+ "sidesNote": "Substitutions are subject to additional charges.",
+ "sandwichNote": "Choice of pita or baguette and garlic, tahini or tzatziki sauce. Comes with tomato, onion, pickles and garlic sauce.",
+ "categories": [
+  {
+   "id": "sides",
+   "name": "Sides & Appetizers",
+   "items": [
+    {
+     "id": "H16",
+     "name": "House Salad",
+     "desc": "Chopped lettuce, tomato, cucumber and onion with sumac and our lemon dressing.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 4.5
+      },
+      {
+       "label": "Large",
+       "price": 7.5
+      }
+     ],
+     "img": "img/menu/img-02161.webp"
+    },
+    {
+     "id": "H17",
+     "name": "Tabouli Salad",
+     "desc": "Finely chopped parsley, bulgur, tomato, mint, lemon and olive oil.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 5.5
+      },
+      {
+       "label": "Large",
+       "price": 8.5
+      }
+     ],
+     "img": "img/menu/img-02191.webp"
+    },
+    {
+     "id": "H18",
+     "name": "Small Greek Salad",
+     "desc": "Romaine, feta, kalamata olives, tomato, cucumber and red onion.",
+     "price": 5.5,
+     "img": "img/menu/img-43111.webp"
+    },
+    {
+     "id": "H19",
+     "name": "Cucumbers & Yogurt",
+     "desc": "Cool yogurt with cucumber, garlic and dried mint.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 4.5
+      },
+      {
+       "label": "Large",
+       "price": 7.5
+      }
+     ],
+     "img": "img/menu/img-01652.webp"
+    },
+    {
+     "id": "H20",
+     "name": "Hummus Dip",
+     "desc": "Chickpeas blended with tahini, lemon and garlic, finished with olive oil.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 4.5
+      },
+      {
+       "label": "Large",
+       "price": 7.5
+      }
+     ],
+     "img": "img/menu/img-00341.webp"
+    },
+    {
+     "id": "H21",
+     "name": "Baba Ghanouge Dip",
+     "desc": "Fire-roasted eggplant with tahini, lemon and garlic.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 4.5
+      },
+      {
+       "label": "Large",
+       "price": 7.5
+      }
+     ],
+     "img": "img/menu/img-00501.webp"
+    },
+    {
+     "id": "H22",
+     "name": "Garlic Sauce",
+     "desc": "Our whipped toum. Strong, smooth and made in-house.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 4.5
+      },
+      {
+       "label": "Large",
+       "price": 7.5
+      }
+     ],
+     "img": "img/menu/img-01031.webp"
+    },
+    {
+     "id": "H23",
+     "name": "Basmati Rice",
+     "desc": "Long-grain basmati, steamed with a touch of saffron color.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 3.5
+      },
+      {
+       "label": "Large",
+       "price": 8.5
+      }
+     ],
+     "img": "img/menu/img-02011.webp"
+    },
+    {
+     "id": "A24",
+     "name": "Stuffed Grape Leaves",
+     "desc": "Five hand-rolled leaves with rice, tomato and herbs.",
+     "price": 4.99,
+     "img": "img/menu/img-00632.webp",
+     "note": "5 pieces"
+    },
+    {
+     "id": "A25",
+     "name": "Falafel",
+     "desc": "Five crisp chickpea patties with tahini sauce.",
+     "price": 7.99,
+     "img": "img/menu/img-42663.webp",
+     "note": "5 pieces"
+    },
+    {
+     "id": "A26",
+     "name": "Kibbe",
+     "desc": "Two bulgur shells stuffed with spiced ground beef and pine nuts.",
+     "price": 7.99,
+     "img": "img/menu/kibbeh-photo1.webp",
+     "note": "2 pieces"
+    },
+    {
+     "id": "H27",
+     "name": "French Fries",
+     "desc": "Crisp cut fries, lightly salted.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 3.5
+      },
+      {
+       "label": "Large",
+       "price": 8.5
+      }
+     ],
+     "img": "img/menu/img-02371.webp"
+    },
+    {
+     "id": "H28",
+     "name": "Spicy Hummus",
+     "desc": "Our hummus with red pepper and a little heat.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 4.5
+      },
+      {
+       "label": "Large",
+       "price": 7.5
+      }
+     ],
+     "img": "img/menu/img-42911.webp"
+    },
+    {
+     "id": "H29",
+     "name": "Lentil Soup",
+     "desc": "Red lentils simmered with cumin and lemon.",
+     "variants": [
+      {
+       "label": "Small",
+       "price": 2.5
+      },
+      {
+       "label": "Large",
+       "price": 3.5
+      }
+     ],
+     "img": "img/menu/img-01771.webp"
+    },
+    {
+     "id": "H30",
+     "name": "Caesar Salad",
+     "desc": "Romaine, parmesan and croutons with Caesar dressing.",
+     "price": 5.5,
+     "img": "img/menu/img-4376.webp"
+    }
+   ]
+  },
+  {
+   "id": "family",
+   "name": "Family Dinners",
+   "items": [
+    {
+     "id": "F1",
+     "name": "Family Dinner",
+     "desc": "Serves 4. Two chicken tika kabobs, two lamb kabobs, four ground beef kabobs, hummus, baba ghanouge, rice, garlic sauce and pita bread.",
+     "price": 75.99,
+     "img": "img/menu/zamani-mediterranean-grill-spring-01.webp",
+     "serves": "Serves 4"
+    },
+    {
+     "id": "F2",
+     "name": "Deluxe Family Dinner",
+     "desc": "Serves 6. Three chicken tika kabobs, three lamb kabobs, six ground beef kabobs, two filet mignon kabobs, hummus, baba ghanouge, rice, garlic sauce and pita bread.",
+     "price": 115.0,
+     "img": "img/menu/img-42861.webp",
+     "serves": "Serves 6"
+    },
+    {
+     "id": "F3",
+     "name": "Shawarma by the Pound",
+     "desc": "Beef and lamb mix, or chicken. Sliced to order.",
+     "variants": [
+      {
+       "label": "Half pound",
+       "price": 8.99
+      },
+      {
+       "label": "Whole pound",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-78671.webp",
+     "choices": [
+      {
+       "label": "Meat",
+       "options": [
+        "Beef & lamb mix",
+        "Chicken"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "F4",
+     "name": "Garnish",
+     "desc": "Fresh onions, tomatoes and pickles for the table.",
+     "variants": [
+      {
+       "label": "Half",
+       "price": 3.99
+      },
+      {
+       "label": "Full",
+       "price": 6.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mains",
+   "name": "Main Course",
+   "items": [
+    {
+     "id": "M1",
+     "name": "Vegetarian Mix Platter",
+     "desc": "Greek salad, baba ghanouge, hummus, stuffed grape leaves, fattoush, tabouli and pita bread.",
+     "price": 16.99,
+     "img": "img/menu/img-01841.webp"
+    },
+    {
+     "id": "M2",
+     "name": "Shawarma Chicken",
+     "desc": "Sliced chicken shawarma with rice, garlic sauce and your choice of side.",
+     "price": 17.99,
+     "img": "img/menu/img-00701.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M3",
+     "name": "Shawarma Beef & Lamb",
+     "desc": "Sliced beef and lamb mix with rice, garlic sauce and your choice of side.",
+     "price": 17.99,
+     "img": "img/menu/img-78671.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M5",
+     "name": "Chicken “Tika” Kabob",
+     "desc": "Marinated all-white-meat chicken, fire-grilled on skewers, with rice and your choice of side.",
+     "price": 17.99,
+     "img": "img/menu/img-7282.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M6",
+     "name": "Roasted Game Hen",
+     "desc": "Slow-roasted hen with fries and garlic sauce.",
+     "variants": [
+      {
+       "label": "Half",
+       "price": 12.99
+      },
+      {
+       "label": "Whole",
+       "price": 17.99
+      }
+     ],
+     "img": "img/menu/img-0146.webp"
+    },
+    {
+     "id": "M7",
+     "name": "Lamb Kabob",
+     "desc": "Tender marinated lamb grilled on skewers, with rice and your choice of side.",
+     "price": 22.99,
+     "img": "img/menu/img-42861.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M8",
+     "name": "Mixed Grill",
+     "desc": "One skewer each of chicken, lamb and ground beef kabob, with rice, garlic sauce and your choice of side.",
+     "price": 24.99,
+     "img": "img/menu/img-7197.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M9",
+     "name": "Filet Mignon Kabob",
+     "desc": "Beef filet, sliced and grilled to order on skewers, with rice and your choice of side.",
+     "price": 22.99,
+     "img": "img/menu/img-7246.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "M10",
+     "name": "Country Dinner",
+     "desc": "Beef and lamb shawarma over a bed of hummus.",
+     "price": 18.99,
+     "img": "img/menu/img-00921.webp"
+    },
+    {
+     "id": "M11",
+     "name": "Falafel Dinner",
+     "desc": "Five falafel with your choice of two sides.",
+     "price": 16.99,
+     "img": "img/menu/img-7301.webp",
+     "choices": [
+      {
+       "label": "Side 1",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      },
+      {
+       "label": "Side 2",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ground",
+   "name": "Grilled Ground Kabobs",
+   "items": [
+    {
+     "id": "K1",
+     "name": "Original Chicken Kabob",
+     "desc": "Fresh ground chicken, grilled, with fries and your choice of side.",
+     "price": 16.99,
+     "img": "img/menu/img-42361.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K2",
+     "name": "Sicilian Kabob",
+     "desc": "Ground chicken stuffed with olives, Italian spices and feta, with two sides.",
+     "price": 17.99,
+     "img": "img/menu/img-42991.webp",
+     "choices": [
+      {
+       "label": "Side 1",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      },
+      {
+       "label": "Side 2",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K3",
+     "name": "Kofta",
+     "desc": "Fresh ground lamb kabobs with one side.",
+     "price": 17.99,
+     "img": "img/menu/img-4331.webp",
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "K4",
+     "name": "Koobideh Kabob",
+     "desc": "Fresh ground beef kabobs with rice and a grilled tomato.",
+     "price": 16.99,
+     "img": "img/menu/img-4262.webp"
+    }
+   ]
+  },
+  {
+   "id": "sandwiches",
+   "name": "Sandwiches",
+   "items": [
+    {
+     "id": "B1",
+     "name": "Chicken Kabob Sandwich",
+     "desc": "Fresh ground chicken kabob.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6349.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B2",
+     "name": "Sicilian Kabob Sandwich",
+     "desc": "Chicken stuffed with olives and feta.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6124.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B3",
+     "name": "Kofta Sandwich",
+     "desc": "Fresh ground lamb with parsley and seasoning.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-5966.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B4",
+     "name": "Ground Beef Kabob Sandwich",
+     "desc": "Traditional ground beef kabob.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-5994.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B5",
+     "name": "Chicken Shawarma Sandwich",
+     "desc": "Sliced, spiced chicken.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6016.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B6",
+     "name": "Beef & Lamb Shawarma Sandwich",
+     "desc": "Sliced beef and lamb mix with spices.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6201.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B7",
+     "name": "Falafel Sandwich",
+     "desc": "Crisp chickpea patties with tahini.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6061-2.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B8",
+     "name": "Chicken Tika Kabob Sandwich",
+     "desc": "Grilled white-meat chicken.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6101.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B9",
+     "name": "Filet Mignon Kabob Sandwich",
+     "desc": "Grilled filet mignon.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6384.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "B10",
+     "name": "Lamb Kabob Sandwich",
+     "desc": "Grilled lamb.",
+     "variants": [
+      {
+       "label": "Sandwich",
+       "price": 11.5
+      },
+      {
+       "label": "Combo with one side",
+       "price": 15.99
+      }
+     ],
+     "img": "img/menu/img-6406.webp",
+     "choices": [
+      {
+       "label": "Bread",
+       "options": [
+        "Pita",
+        "Baguette"
+       ]
+      },
+      {
+       "label": "Sauce",
+       "options": [
+        "Garlic",
+        "Tahini",
+        "Tzatziki"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "salads",
+   "name": "Salad Entrees",
+   "items": [
+    {
+     "id": "S31",
+     "name": "Chicken “Tika” Kabob Salad",
+     "desc": "Grilled chicken tika over our house salad.",
+     "price": 16.99
+    },
+    {
+     "id": "S29",
+     "name": "Shawarma Salad",
+     "desc": "Chicken or beef shawarma over our house salad.",
+     "price": 16.99,
+     "img": "img/menu/zamani-mediterranean-grill-spring-02.webp",
+     "choices": [
+      {
+       "label": "Shawarma",
+       "options": [
+        "Chicken",
+        "Beef & lamb"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "S28",
+     "name": "Greek or Caesar Salad",
+     "desc": "A full-size Greek or Caesar salad.",
+     "price": 10.99,
+     "img": "img/menu/img-43111.webp",
+     "choices": [
+      {
+       "label": "Salad",
+       "options": [
+        "Greek",
+        "Caesar"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "S30",
+     "name": "Falafel Salad",
+     "desc": "Crisp falafel over our house salad.",
+     "price": 16.99
+    }
+   ]
+  },
+  {
+   "id": "kids",
+   "name": "Kids Corner",
+   "items": [
+    {
+     "id": "Z1",
+     "name": "Chicken Nuggets",
+     "desc": "Six pieces with fries.",
+     "price": 6.99
+    },
+    {
+     "id": "Z2",
+     "name": "Chicken Tenders",
+     "desc": "Three pieces with fries.",
+     "price": 9.99
+    },
+    {
+     "id": "Z3",
+     "name": "Kids Chicken Shawarma",
+     "desc": "Chicken shawarma with one side.",
+     "price": 9.99,
+     "choices": [
+      {
+       "label": "Side",
+       "options": [
+        "House salad",
+        "Tabouli",
+        "Hummus",
+        "Baba ghanouge",
+        "Rice",
+        "Fries",
+        "Cucumbers & yogurt"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desserts",
+   "name": "Desserts",
+   "items": [
+    {
+     "id": "D1",
+     "name": "Baklava",
+     "desc": "Two pieces of layered phyllo with nuts and syrup.",
+     "price": 4.99,
+     "note": "2 pieces"
+    },
+    {
+     "id": "D2",
+     "name": "Harissa",
+     "desc": "Two pieces of semolina cake soaked in syrup.",
+     "price": 4.99,
+     "note": "2 pieces"
+    }
+   ]
+  },
+  {
+   "id": "skewers",
+   "name": "Meat by the Skewer",
+   "items": [
+    {
+     "id": "X5",
+     "name": "Chicken “Tika” Kabob Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 7.0,
+     "img": "img/menu/img-7282.webp",
+     "minQty": 6
+    },
+    {
+     "id": "X7",
+     "name": "Lamb Kabob Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 8.0,
+     "img": "img/menu/img-42861.webp",
+     "minQty": 6
+    },
+    {
+     "id": "X9",
+     "name": "Beef Filet Mignon Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 8.0,
+     "img": "img/menu/img-7246.webp",
+     "minQty": 6
+    },
+    {
+     "id": "X1",
+     "name": "Original Chicken Kabob Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 6.0,
+     "img": "img/menu/img-42361.webp",
+     "minQty": 6
+    },
+    {
+     "id": "X2",
+     "name": "Sicilian Kabob Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 7.0,
+     "img": "img/menu/img-42991.webp",
+     "minQty": 6
+    },
+    {
+     "id": "X3",
+     "name": "Kofta Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 7.0,
+     "img": "img/menu/img-4331.webp",
+     "minQty": 6
+    },
+    {
+     "id": "X4",
+     "name": "Koobideh Kabob Skewer",
+     "desc": "Minimum order of 6 skewers.",
+     "price": 6.0,
+     "img": "img/menu/img-4262.webp",
+     "minQty": 6
+    }
+   ]
+  },
+  {
+   "id": "drinks",
+   "name": "Drinks",
+   "items": [
+    {
+     "id": "V1",
+     "name": "Soft Drink",
+     "desc": "Coke, Diet Coke, Sprite or Dr Pepper.",
+     "price": 1.99,
+     "choices": [
+      {
+       "label": "Drink",
+       "options": [
+        "Coke",
+        "Diet Coke",
+        "Sprite",
+        "Dr Pepper"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "V2",
+     "name": "Bottled Water",
+     "desc": "",
+     "price": 1.99
+    },
+    {
+     "id": "V3",
+     "name": "Iced Tea",
+     "desc": "Sweet or unsweet.",
+     "price": 1.99,
+     "choices": [
+      {
+       "label": "Tea",
+       "options": [
+        "Sweet",
+        "Unsweet"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /checkout
+Disallow: /order/
+Disallow: /updates
+Disallow: /.netlify/
+
+Sitemap: https://zamanigrill.com/sitemap.xml

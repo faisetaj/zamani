@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-tax="0.0825">
+<head>
+<title data-i18n="title.checkout">Pickup &amp; pay · Zamani Grill &amp; Market</title>
+<meta name="description" content="Choose a pickup time and pay for your Zamani order.">
+<meta name="robots" content="noindex, nofollow">
+<!-- @head -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://zamanigrill.com/checkout">
+<link rel="alternate" hreflang="ar" href="https://zamanigrill.com/checkout?lang=ar">
+<link rel="alternate" hreflang="fa" href="https://zamanigrill.com/checkout?lang=fa">
+<link rel="alternate" hreflang="hi" href="https://zamanigrill.com/checkout?lang=hi">
+<link rel="alternate" hreflang="ur" href="https://zamanigrill.com/checkout?lang=ur">
+<link rel="alternate" hreflang="en" href="https://zamanigrill.com/checkout">
+<link rel="alternate" hreflang="x-default" href="https://zamanigrill.com/checkout">
+<meta name="theme-color" content="#FBF8F2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fustat:wght@500;650;700&family=Red+Hat+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/site.css">
+<script>try{var l=localStorage.getItem("zamani-lang");if(l){l=JSON.parse(l);if(l&&l!=="en"){document.documentElement.lang=l;document.documentElement.dir=(l==="hi")?"ltr":"rtl"}}}catch(e){}</script>
+<!-- /@head -->
+</head>
+<body class="page-checkout">
+<!-- @contract -->
+<!--
+  DIRECTION CONTRACT — Levant Menu Card (seed 0db87a8c)
+  THESIS: The menu is the page. A bright card of typography where every dish, price and pickup time is already set, English and
+  Arabic at equal weight, and the photo is the garnish. It refuses the full-bleed food hero with an "Order Online" button.
+  OWN-WORLD: Card stock #FBF8F2 as a shadowed sheet on a darker counter; ink #14201C; one cedar green #1E6B4F that owns whole
+  regions (order rail, catering band); brass #B98A2E for the market; hairline rules, dashed dish leaders, tabular Red Hat Mono
+  prices; Fustat for Latin and Arabic; round stamp "add", pill quantity, square remove; a left ruler rail aligning every course.
+  STORY: A hungry neighbor sees the first course and its prices in one glance, adds in one tap, pays on the kitchen's own
+  Priority payment page, and learns the same halal meat is sold next door.
+  FIRST VIEWPORT: Left 7/12: wordmark, headline, lede, two actions, open-now line. Right 5/12: one framed dish photo cycling
+  through the owner's own studio shots under a brass stamp. Phone: frame first, headline, cedar order rail pinned to the bottom.
+  FORM: Levant Menu Card, candidate 7 of 7 on the grounded list, assigned by the roll; built code-led.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every
+  shipping raster carrying its provenance.
+-->
+<!-- /@contract -->
+<div class="sheet">
+<!-- @header -->
+<header class="top">
+  <a class="wordmark" href="./" aria-label="Zamani Grill & Market, home"><span class="lat">Zamani</span><span class="ar" lang="ar" aria-hidden="true">زماني</span><span class="sub">Grill &amp; Market</span></a>
+  <nav class="nav" aria-label="Site"><a href="./" data-i18n="nav.home">Home</a><a href="menu" data-i18n="nav.menu">Menu</a><a href="market" data-i18n="nav.market">Market</a><a href="catering" data-i18n="nav.catering">Catering</a><a href="locations" data-i18n="nav.locations">Locations</a></nav>
+  <div class="top-actions">
+    <details class="lang"><summary aria-label="Language"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg><span class="cur">EN</span></summary><div class="lang-menu" role="group" aria-label="Choose language"></div></details>
+    <button type="button" class="cartbtn" data-open-ticket aria-label="Open your ticket"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h14v18l-2.3-1.6L14.4 21l-2.4-1.6L9.6 21l-2.3-1.6L5 21z"/><path d="M9 8h6M9 12h6"/></svg><span class="lbl" data-i18n="cart.ticket">Ticket</span><span class="count">0</span></button>
+  </div>
+</header>
+<!-- /@header -->
+<div class="grid">
+  <div class="rail" aria-hidden="true"><span class="rail-label">Pickup &amp; pay</span></div>
+  <main class="main" id="main">
+    <div class="checkout">
+      <div>
+        <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem);margin-bottom:8px" data-i18n="co.h1">Pickup &amp; pay</h1>
+        <p class="lede" style="margin-bottom:24px" data-i18n="co.lede">Three steps: who it's for, when you'll pick it up, how you'd like to pay.</p>
+        <form id="checkout" class="form" novalidate data-payments-enabled="false">
+          <div class="two">
+            <div class="field"><label for="name" data-i18n="form.name">Your name</label><input id="name" name="name" required autocomplete="name"><span class="error" data-i18n="form.nameErr">We need a name for the bag.</span></div>
+            <div class="field"><label for="phone" data-i18n="form.phone">Mobile phone</label><input id="phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="(281) 555-0123"><span class="error" data-i18n="form.phoneErr">Enter a 10-digit number so we can reach you about the order.</span></div>
+          </div>
+          <div class="field"><label for="email" data-i18n="form.emailOpt">Email (optional, for a receipt)</label><input id="email" name="email" type="email" autocomplete="email"></div>
+
+          <fieldset class="field"><legend data-i18n="co.where">Pick up at</legend>
+            <div class="radio-cards">
+              <label class="radio-card"><input type="radio" name="location" value="louetta" checked><span><b>Louetta</b><small>9440 Louetta Rd #3, Spring 77379 · <span data-i18n="co.hotFood">hot food and market</span></small></span></label>
+              <label class="radio-card"><input type="radio" name="location" value="riley-fuzzel"><span><b>Riley Fuzzel</b><small>1827 Riley Fuzzel Rd Ste B, Spring 77386 · <span data-i18n="co.marketOnly">market items only</span></small></span></label>
+            </div>
+            <span class="hint" data-i18n="co.whereHint">Hot food is only prepared at Louetta. If your ticket has menu items, choose Louetta.</span>
+          </fieldset>
+
+          <fieldset class="field"><legend data-i18n="co.when">When</legend>
+            <div class="steps">
+              <label><input type="radio" name="pickup" value="asap" checked><span><b data-i18n="co.asap">ASAP</b><small data-i18n="co.asapS">about 20–25 min</small></span></label>
+              <label><input type="radio" name="pickup" value="20"><span><b data-i18n="co.in20">In 20 min</b><small data-i18n="co.in20S">I'm on my way</small></span></label>
+              <label><input type="radio" name="pickup" value="45"><span><b data-i18n="co.in45">In 45 min</b><small data-i18n="co.in45S">a little later</small></span></label>
+              <label><input type="radio" name="pickup" value="scheduled"><span><b data-i18n="co.sched">Schedule</b><small data-i18n="co.schedS">write the time in notes</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field"><legend data-i18n="co.how">How you'd like to pay</legend>
+            <div class="radio-cards">
+              <label class="radio-card"><input type="radio" name="tender" value="online"><span><b data-i18n="co.online">Pay now online</b><small data-i18n="co.onlineS">Card, on the restaurant's secure payment page</small><span class="price" data-i18n="co.card">Card</span></span></label>
+              <label class="radio-card"><input type="radio" name="tender" value="pickup" checked><span><b data-i18n="co.atPickup">Pay at pickup</b><small data-i18n="co.atPickupS">Card or cash at the counter</small><span class="price" data-i18n="co.counter">Counter</span></span></label>
+            </div>
+          </fieldset>
+
+          <div class="field"><label for="notes" data-i18n="co.notes">Notes for the kitchen</label><textarea id="notes" name="notes" placeholder="Allergies, extra garlic sauce, a scheduled time…" data-i18n-attr="placeholder:co.notesPh"></textarea></div>
+
+          <div class="notice" role="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span data-i18n="co.notice">We'll text or call if anything on your ticket is unavailable. Sales tax is added below.</span></div>
+          <p id="checkout-error" class="error" hidden tabindex="-1" style="color:#8A3B2E"></p>
+          <button class="btn" type="submit" style="min-height:56px;font-size:1.05rem" data-i18n="co.send">Send order to the kitchen</button>
+        </form>
+        <!-- Netlify Forms registration for the order log (posted by JS). -->
+        <form name="orders" data-netlify="true" netlify-honeypot="company" hidden aria-hidden="true">
+          <input type="hidden" name="form-name" value="orders">
+          <input name="name"><input name="phone"><input name="email"><input name="location"><input name="pickup"><input name="tender"><input name="notes"><input name="items"><input name="total"><input name="company">
+        </form>
+      </div>
+      <aside class="summary" aria-label="Order summary">
+        <h2 data-i18n="cart.yourTicket">Your ticket</h2>
+        <div class="summary-lines"></div>
+        <div class="totals" style="margin-top:14px"></div>
+        <p style="margin-top:14px;font-size:.88rem;color:var(--muted)"><a href="menu" data-i18n="co.addMore">Add more from the menu</a> · <a href="market" data-i18n="co.addMarket">or the market</a></p>
+      </aside>
+    </div>
+  </main>
+</div>
+<!-- @footer -->
+<footer class="foot">
+  <div><p class="fh" data-i18n="foot.about">Zamani Grill &amp; Market</p><p data-i18n="foot.blurb">Family-run Lebanese grill and halal market in Spring, Texas since 2008. Fresh ingredients, fire-grilled kabobs, and the same halal meat and spices for your own kitchen.</p>
+    <p style="margin-top:12px"><a href="https://www.facebook.com/zamanimarketgrill" rel="noopener" target="_blank">Facebook</a></p></div>
+  <div><p class="fh">Louetta</p><address>9440 Louetta Rd #3<br>Spring, TX 77379<br><a href="tel:+12812519111" class="mono">(281) 251-9111</a></address></div><div><p class="fh">Riley Fuzzel</p><address>1827 Riley Fuzzel Rd Ste B<br>Spring, TX 77386<br><a href="tel:+18327915486" class="mono">(832) 791-5486</a></address></div>
+  <div><p class="fh" data-i18n="foot.visit">Visit</p><ul><li><a href="menu" data-i18n="nav.menu">Menu</a></li><li><a href="market" data-i18n="nav.market">Market</a></li><li><a href="catering" data-i18n="nav.catering">Catering</a></li><li><a href="locations" data-i18n="nav.locations">Locations</a></li><li><a href="privacy" data-i18n="foot.privacy">Privacy &amp; terms</a></li></ul></div>
+  <div class="legal"><span>© <span class="num">2026</span> Zamani Grill &amp; Market. <span data-i18n="foot.halal">Fully halal. No alcohol.</span></span><span data-i18n="foot.prices">Prices subject to change without notice.</span></div>
+</footer>
+<!-- /@footer -->
+</div>
+<!-- @ticket -->
+<div class="scrim" hidden></div>
+<aside class="ticket" aria-label="Your ticket" role="dialog" aria-modal="true">
+  <div class="ticket-head"><h2 data-i18n="cart.yourTicket">Your ticket</h2><button type="button" class="close" aria-label="Close" data-i18n-attr="aria-label:cart.close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+  <div class="ticket-body"></div>
+  <div class="ticket-foot"><div class="totals"></div><a class="btn" href="checkout" data-i18n="cart.checkout">Pickup &amp; pay</a></div>
+</aside>
+<div class="orderbar"><div class="sum"></div><a class="btn" href="checkout" data-i18n="cart.review">Review ticket</a></div>
+<script src="js/site.js" defer></script>
+<!-- /@ticket -->
+</body>
+</html>

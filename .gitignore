@@ -1,0 +1,8 @@
+node_modules/
+.netlify/
+.DS_Store
+.impeccable/review/
+.impeccable/mocks/
+img/source/third-party/
+img/uploads/*
+!img/uploads/.gitkeep

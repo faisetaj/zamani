@@ -1,0 +1,51 @@
+{
+  "pricesVerified": false,
+  "pricesNote": "EVERY PRICE AND PRODUCT BELOW IS A PLACEHOLDER for the owner to correct. The site shows them with an 'estimated' mark until pricesVerified is true.",
+  "pickupLocations": ["louetta", "riley-fuzzel"],
+  "categories": [
+    {
+      "id": "halal-meat",
+      "name": "Halal Meat",
+      "blurb": "Cut fresh at the counter. Order ahead and we will have it wrapped and waiting.",
+      "img": "img/market/butcher-board.webp",
+      "items": [
+        { "id": "MK01", "name": "Ground Beef", "unit": "per lb", "price": 7.99, "desc": "Lean halal ground beef." },
+        { "id": "MK02", "name": "Beef Stew Cubes", "unit": "per lb", "price": 9.99, "desc": "Boneless, cut for stew or kabob." },
+        { "id": "MK03", "name": "Lamb Shoulder", "unit": "per lb", "price": 11.99, "desc": "Bone-in, cut to order." },
+        { "id": "MK04", "name": "Lamb Chops", "unit": "per lb", "price": 16.99, "desc": "Frenched rib chops." },
+        { "id": "MK05", "name": "Whole Chicken", "unit": "each", "price": 9.99, "desc": "Fresh halal chicken, about 3.5 lb." },
+        { "id": "MK06", "name": "Chicken Thighs, Boneless", "unit": "per lb", "price": 5.99, "desc": "Skinless." },
+        { "id": "MK07", "name": "Goat Meat", "unit": "per lb", "price": 12.99, "desc": "Bone-in, cut to order." }
+      ]
+    },
+    {
+      "id": "spices",
+      "name": "Spices & Blends",
+      "blurb": "The same blends we cook with, in the kitchen and at home.",
+      "img": "img/market/spices-white.webp",
+      "items": [
+        { "id": "MK10", "name": "Seven Spice (Baharat)", "unit": "8 oz", "price": 4.99, "desc": "Our all-purpose Lebanese blend." },
+        { "id": "MK11", "name": "Sumac", "unit": "8 oz", "price": 4.99, "desc": "Tart, deep red. For salads and grilled meat." },
+        { "id": "MK12", "name": "Za'atar", "unit": "8 oz", "price": 4.99, "desc": "Thyme, sesame and sumac." },
+        { "id": "MK13", "name": "Shawarma Seasoning", "unit": "8 oz", "price": 5.49, "desc": "For chicken or beef." },
+        { "id": "MK14", "name": "Saffron", "unit": "1 g", "price": 9.99, "desc": "Whole threads." }
+      ]
+    },
+    {
+      "id": "pantry",
+      "name": "Pantry & Bread",
+      "blurb": "Staples for the Lebanese kitchen.",
+      "img": "img/market/rice.webp",
+      "items": [
+        { "id": "MK20", "name": "Basmati Rice", "unit": "10 lb bag", "price": 18.99, "desc": "Extra-long grain." },
+        { "id": "MK21", "name": "Tahini", "unit": "16 oz jar", "price": 6.99, "desc": "Pure ground sesame." },
+        { "id": "MK22", "name": "Extra Virgin Olive Oil", "unit": "1 L", "price": 13.99, "desc": "Lebanese, cold-pressed." },
+        { "id": "MK23", "name": "Pita Bread", "unit": "pack of 6", "price": 2.49, "desc": "Fresh daily." },
+        { "id": "MK24", "name": "Bulgur", "unit": "2 lb", "price": 3.99, "desc": "Fine, for tabouli and kibbe." },
+        { "id": "MK25", "name": "Medjool Dates", "unit": "1 lb", "price": 8.99, "desc": "Soft and large." },
+        { "id": "MK26", "name": "Pomegranate Molasses", "unit": "10 oz", "price": 5.49, "desc": "For fattoush and marinades." },
+        { "id": "MK27", "name": "Halloumi Cheese", "unit": "8 oz", "price": 7.99, "desc": "For grilling." }
+      ]
+    }
+  ]
+}
