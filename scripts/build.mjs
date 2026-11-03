@@ -74,14 +74,12 @@ function renderMarket(prefix = "") {
 /* ---------- locations ---------- */
 const fmtTime = t => { const [h, m] = t.split(":").map(Number); const ampm = h >= 12 ? "pm" : "am"; const hh = ((h + 11) % 12) + 1; return `${hh}:${String(m).padStart(2, "0")} ${ampm}`; };
 function hoursTable(l) {
-  return `<div class="hours" data-i18n-hours>${l.hours.map(h => `<div><span data-i18n="days.${h.dayCodes.join("")}">${esc(h.days)}</span><time>${fmtTime(h.open)} – ${fmtTime(h.close)}</time></div>`).join("")}</div>${l.hoursVerified === false ? `<span class="unverified" data-i18n="hours.unverified">Hours from a directory listing — confirming with the store</span>` : ""}`;
+  return `<div class="hours" data-i18n-hours>${l.hours.map(h => `<div><span data-i18n="days.${h.dayCodes.join("")}">${esc(h.days)}</span><time>${fmtTime(h.open)} – ${fmtTime(h.close)}</time></div>`).join("")}</div>${l.hoursVerified === false ? `<span class="unverified" data-i18n="hours.unverified">Hours and phone from a directory listing — confirming with the store</span>` : ""}`;
 }
 function placeCard(l, prefix = "", H = "h3") {
-  const kinds = l.kind.map(k => ({ restaurant: "Restaurant", market: "Halal market" }[k])).join(" · ");
   return `<article class="place rv" id="${l.id}">
   <img src="${prefix}${l.photo}" width="900" height="674" alt="${esc(l.fullName)}" loading="lazy" decoding="async">
   <div class="place-body">
-    <span class="kind" data-i18n="loc.${l.id}.kind">${esc(kinds)}</span>
     <${H}>${esc(l.name)}</${H}>
     <p data-i18n="loc.${l.id}.tagline">${esc(l.tagline)}</p>
     <address>${esc(l.street)}<br>${esc(l.city)}, ${esc(l.state)} ${esc(l.zip)}<br><a href="tel:${l.phoneE164}" class="mono">${esc(l.phone)}</a></address>
@@ -93,7 +91,7 @@ function placeCard(l, prefix = "", H = "h3") {
 }
 function renderPlaces(prefix = "", H = "h3") { return locs.locations.map(l => placeCard(l, prefix, H)).join("\n"); }
 function renderFooterNap(prefix = "") {
-  return locs.locations.map(l => `<div><p class="fh">${esc(l.name)}</p><address>${esc(l.street)}<br>${esc(l.city)}, ${esc(l.state)} ${esc(l.zip)}<br><a href="tel:${l.phoneE164}" class="mono">${esc(l.phone)}</a></address></div>`).join("");
+  return locs.locations.map(l => `<div><p class="fh">${esc(l.name)}</p><address>${esc(l.street)}<br>${esc(l.city)}, ${esc(l.state)} ${esc(l.zip)}<br><a href="tel:${l.phoneE164}" class="mono">${esc(l.phone)}</a>${l.phoneNote ? `<span class="confirming" data-i18n="foot.confirming">number being confirmed</span>` : ""}</address></div>`).join("");
 }
 function renderJsonLd(pageKind, locId) {
   const toSpec = l => l.hours.map(h => ({ "@type": "OpeningHoursSpecification", dayOfWeek: h.dayCodes.map(d => ({ Su: "Sunday", Mo: "Monday", Tu: "Tuesday", We: "Wednesday", Th: "Thursday", Fr: "Friday", Sa: "Saturday" }[d])), opens: h.open, closes: h.close }));
@@ -146,7 +144,7 @@ ${langs.map(l => `<link rel="alternate" hreflang="${l}" href="${canon}${canon.in
 <meta name="theme-color" content="#FBF8F2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fustat:wght@500;650;700&family=Red+Hat+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fustat:wght@500..700&family=Red+Hat+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="${prefix}css/site.css">
 <script>try{var l=localStorage.getItem("zamani-lang");if(l){l=JSON.parse(l);if(l&&l!=="en"){document.documentElement.lang=l;document.documentElement.dir=(l==="hi")?"ltr":"rtl"}}}catch(e){}</script>`;
 }
@@ -183,7 +181,7 @@ function renderTicket(prefix) {
 /* ---------- apply to pages ---------- */
 const blocks = {
   "menu": p => renderMenu(p), "menu-nav": () => renderMenuNav(), "course-nav": () => renderCourseNav(),
-  "featured": p => renderFeatured(["M2", "M8", "F1", "A25", "H20", "B5"], p),
+  "featured": p => renderFeatured(["A25", "H20", "B5", "M7", "K3", "H17"], p), "hero-dishes": p => renderFeatured(["M2", "M8", "F1"], p),
   "market": p => renderMarket(p), "places": (p, c) => renderPlaces(p, c.page === "locations" ? "h2" : "h3"), "footer-nap": p => renderFooterNap(p),
   "jsonld-home": () => renderJsonLd("home"), "jsonld-menu": () => renderJsonLd("menu"),
   "jsonld-louetta": () => renderJsonLd("place", "louetta"), "jsonld-riley-fuzzel": () => renderJsonLd("place", "riley-fuzzel"),

@@ -6,7 +6,10 @@
       "slug": "tx/spring/louetta",
       "name": "Louetta",
       "fullName": "Zamani Grill & Market — Louetta",
-      "kind": ["restaurant", "market"],
+      "kind": [
+        "restaurant",
+        "market"
+      ],
       "tagline": "The original. Lebanese grill and halal market under one roof.",
       "street": "9440 Louetta Rd #3",
       "city": "Spring",
@@ -14,14 +17,39 @@
       "zip": "77379",
       "phone": "(281) 251-9111",
       "phoneE164": "+12812519111",
-      "geo": { "lat": 30.0145, "lng": -95.5413 },
+      "geo": {
+        "lat": 30.0145,
+        "lng": -95.5413
+      },
       "geoNote": "Approximate; replace with coordinates from the Google Business Profile before launch.",
       "hours": [
-        { "days": "Sunday – Thursday", "dayCodes": ["Su", "Mo", "Tu", "We", "Th"], "open": "10:45", "close": "21:00" },
-        { "days": "Friday – Saturday", "dayCodes": ["Fr", "Sa"], "open": "10:45", "close": "22:00" }
+        {
+          "days": "Sunday – Thursday",
+          "dayCodes": [
+            "Su",
+            "Mo",
+            "Tu",
+            "We",
+            "Th"
+          ],
+          "open": "10:45",
+          "close": "21:00"
+        },
+        {
+          "days": "Friday – Saturday",
+          "dayCodes": [
+            "Fr",
+            "Sa"
+          ],
+          "open": "10:45",
+          "close": "22:00"
+        }
       ],
       "hoursSource": "zamanigrill.com hours page, captured 2026-11-03. Confirm with owner.",
-      "ordering": { "pickup": true, "delivery": false },
+      "ordering": {
+        "pickup": true,
+        "delivery": false
+      },
       "deliveryApps": {
         "doordash": "https://www.doordash.com/store/zamani-grill-spring-42533/322698/",
         "ubereats": "https://www.ubereats.com/",
@@ -29,15 +57,31 @@
       },
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zamani+Grill+9440+Louetta+Rd+%233+Spring+TX+77379",
       "googlePlaceId": "ChIJk2LL-nQ6R4YRIRPxa_S1_0I",
-      "reviews": { "google": { "rating": 4.5, "count": 710 }, "doordash": { "rating": 4.8, "count": 1000 }, "yelp": { "rating": 4.1, "count": 204 }, "checked": "2026-11-01" },
-      "photo": "img/menu/img-7197.webp"
+      "reviews": {
+        "google": {
+          "rating": 4.5,
+          "count": 710
+        },
+        "doordash": {
+          "rating": 4.8,
+          "count": 1000
+        },
+        "yelp": {
+          "rating": 4.1,
+          "count": 204
+        },
+        "checked": "2026-11-01"
+      },
+      "photo": "img/menu/img-78671.webp"
     },
     {
       "id": "riley-fuzzel",
       "slug": "tx/spring/riley-fuzzel",
       "name": "Riley Fuzzel",
       "fullName": "Zamani International Market — Riley Fuzzel",
-      "kind": ["market"],
+      "kind": [
+        "market"
+      ],
       "tagline": "Our second market. Halal meat, spices and pantry staples near Grand Parkway.",
       "street": "1827 Riley Fuzzel Rd Ste B",
       "city": "Spring",
@@ -46,16 +90,41 @@
       "phone": "(832) 791-5486",
       "phoneE164": "+18327915486",
       "phoneNote": "From the Yahoo Local listing; another directory lists (346) 225-1042. Confirm with owner before launch.",
-      "geo": { "lat": 30.1050, "lng": -95.4150 },
+      "geo": {
+        "lat": 30.105,
+        "lng": -95.415
+      },
       "geoNote": "Approximate; replace with coordinates from the Google Business Profile before launch.",
       "hours": [
-        { "days": "Every day", "dayCodes": ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"], "open": "10:00", "close": "21:00" }
+        {
+          "days": "Every day",
+          "dayCodes": [
+            "Su",
+            "Mo",
+            "Tu",
+            "We",
+            "Th",
+            "Fr",
+            "Sa"
+          ],
+          "open": "10:00",
+          "close": "21:00"
+        }
       ],
       "hoursSource": "Yahoo Local listing, captured 2026-11-03. UNCONFIRMED — confirm with owner.",
       "hoursVerified": false,
-      "ordering": { "pickup": true, "delivery": false },
+      "ordering": {
+        "pickup": true,
+        "delivery": false
+      },
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zamani+International+Market+1827+Riley+Fuzzel+Rd+Ste+B+Spring+TX+77386",
-      "reviews": { "google": { "rating": 4.8, "count": 39 }, "checked": "2026-11-01" },
+      "reviews": {
+        "google": {
+          "rating": 4.8,
+          "count": 39
+        },
+        "checked": "2026-11-01"
+      },
       "photo": "img/market/spices-white.webp"
     }
   ]
