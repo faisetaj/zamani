@@ -97,7 +97,7 @@ function renderJsonLd(pageKind, locId) {
   const toSpec = l => l.hours.map(h => ({ "@type": "OpeningHoursSpecification", dayOfWeek: h.dayCodes.map(d => ({ Su: "Sunday", Mo: "Monday", Tu: "Tuesday", We: "Wednesday", Th: "Thursday", Fr: "Friday", Sa: "Saturday" }[d])), opens: h.open, closes: h.close }));
   const node = l => ({
     "@type": l.kind.includes("restaurant") ? ["Restaurant", "GroceryStore"] : "GroceryStore",
-    "@id": `${SITE}/${l.slug}/#place`, name: l.fullName, url: `${SITE}/${l.slug}/`, telephone: l.phoneE164, image: `${SITE}/${l.photo}`,
+    "@id": `${SITE}/${l.slug}/#place`, name: l.fullName, url: `${SITE}/${l.slug}/`, telephone: l.phoneNote ? undefined : l.phoneE164, image: `${SITE}/${l.photo}`,
     servesCuisine: l.kind.includes("restaurant") ? ["Lebanese", "Mediterranean", "Middle Eastern", "Halal"] : undefined,
     priceRange: "$$", acceptsReservations: false,
     address: { "@type": "PostalAddress", streetAddress: l.street, addressLocality: l.city, addressRegion: l.state, postalCode: l.zip, addressCountry: "US" },

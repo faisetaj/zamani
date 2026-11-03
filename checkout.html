@@ -56,9 +56,11 @@
   <div class="rail" aria-hidden="true"><span class="rail-label">Pickup &amp; pay</span></div>
   <main class="main" id="main">
     <div class="checkout">
-      <div>
+      <div class="co-head">
         <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem);margin-bottom:8px" data-i18n="co.h1">Pickup &amp; pay</h1>
-        <p class="lede" style="margin-bottom:24px" data-i18n="co.lede">Three steps: who it's for, when you'll pick it up, how you'd like to pay.</p>
+        <p class="lede" data-i18n="co.lede">Three steps: who it's for, when you'll pick it up, how you'd like to pay.</p>
+      </div>
+      <div class="co-form">
         <form id="checkout" class="form" novalidate data-payments-enabled="false">
           <div class="two">
             <div class="field"><label for="name" data-i18n="form.name">Your name</label><input id="name" name="name" required autocomplete="name"><span class="error" data-i18n="form.nameErr">We need a name for the bag.</span></div>

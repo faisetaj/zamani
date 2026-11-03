@@ -365,7 +365,10 @@ fieldset{border:0;padding:0;margin:0;display:grid;gap:10px}
 .course-nav::-webkit-scrollbar{display:none}
 .course-nav a{white-space:nowrap;text-decoration:none;padding:8px 12px;border:1px solid var(--line-strong);border-radius:999px;font-size:.86rem}
 .course-nav a.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.checkout{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:clamp(24px,4vw,64px);padding:clamp(24px,4vw,56px) var(--card-pad)}
+.checkout{display:grid;grid-template-columns:minmax(0,1fr) 380px;grid-template-areas:"head aside" "form aside";gap:0 clamp(24px,4vw,64px);padding:clamp(24px,4vw,56px) var(--card-pad)}
+.co-head{grid-area:head;margin-bottom:24px}
+.co-form{grid-area:form}
+.checkout .summary{grid-area:aside}
 .summary{border:1px solid var(--line);border-radius:var(--r-lg);background:var(--paper-2);padding:20px;position:sticky;top:84px;align-self:start}
 .summary h2{font-size:1.2rem;margin-bottom:8px}
 .summary .line{animation:none}
@@ -391,8 +394,8 @@ fieldset{border:0;padding:0;margin:0;display:grid;gap:10px}
   .menu-aside{display:none}
   .course-nav{display:flex}
   .foot{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .checkout{grid-template-columns:minmax(0,1fr)}
-  .summary{position:static;order:-1}
+  .checkout{grid-template-columns:minmax(0,1fr);grid-template-areas:"head" "aside" "form"}
+  .summary{position:static;margin-bottom:24px}
 }
 @media (max-width:860px){
   :root{--rail:0px}
