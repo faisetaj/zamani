@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T12:40:00.000Z",
+  "title": "Design System: Zamani Grill & Market",
+  "extensions": {
+    "colorMeta": {
+      "paper":        { "role": "neutral",   "displayName": "Card Stock",     "canonical": "#FBF8F2", "cssVar": "--paper",       "tonalRamp": ["oklch(20% 0.01 85)", "oklch(32% 0.012 85)", "oklch(45% 0.014 85)", "oklch(58% 0.016 85)", "oklch(71% 0.016 85)", "oklch(84% 0.014 85)", "oklch(93% 0.01 85)", "oklch(98% 0.008 85)"] },
+      "paper-2":      { "role": "neutral",   "displayName": "Mat",            "canonical": "#F3EEE4", "cssVar": "--paper-2",     "tonalRamp": ["oklch(20% 0.012 80)", "oklch(32% 0.014 80)", "oklch(45% 0.016 80)", "oklch(58% 0.018 80)", "oklch(71% 0.018 80)", "oklch(84% 0.016 80)", "oklch(90% 0.014 80)", "oklch(95% 0.012 80)"] },
+      "paper-3":      { "role": "neutral",   "displayName": "Counter",        "canonical": "#EAE3D6", "cssVar": "--paper-3",     "tonalRamp": ["oklch(20% 0.014 80)", "oklch(32% 0.016 80)", "oklch(45% 0.018 80)", "oklch(58% 0.02 80)", "oklch(71% 0.02 80)", "oklch(82% 0.018 80)", "oklch(88% 0.016 80)", "oklch(92% 0.014 80)"] },
+      "ink":          { "role": "neutral",   "displayName": "Ink",            "canonical": "#14201C", "cssVar": "--ink",         "tonalRamp": ["oklch(15% 0.015 170)", "oklch(22% 0.015 170)", "oklch(32% 0.015 170)", "oklch(45% 0.015 170)", "oklch(58% 0.014 170)", "oklch(71% 0.012 170)", "oklch(84% 0.01 170)", "oklch(95% 0.006 170)"] },
+      "muted":        { "role": "neutral",   "displayName": "Muted Ink",      "canonical": "#5B6661", "cssVar": "--muted",       "tonalRamp": ["oklch(15% 0.012 170)", "oklch(25% 0.012 170)", "oklch(35% 0.012 170)", "oklch(47% 0.012 170)", "oklch(58% 0.012 170)", "oklch(70% 0.01 170)", "oklch(83% 0.008 170)", "oklch(95% 0.005 170)"] },
+      "ink-on-brand": { "role": "neutral",   "displayName": "Paper on Cedar", "canonical": "#F4F8F5", "cssVar": "--ink-on-brand", "tonalRamp": ["oklch(15% 0.01 165)", "oklch(27% 0.01 165)", "oklch(40% 0.01 165)", "oklch(53% 0.01 165)", "oklch(66% 0.01 165)", "oklch(80% 0.008 165)", "oklch(92% 0.006 165)", "oklch(97% 0.005 165)"] },
+      "brand":        { "role": "primary",   "displayName": "Cedar",          "canonical": "#1E6B4F", "cssVar": "--brand",       "tonalRamp": ["oklch(15% 0.04 162)", "oklch(25% 0.06 162)", "oklch(36% 0.075 162)", "oklch(47% 0.085 162)", "oklch(58% 0.09 162)", "oklch(70% 0.08 162)", "oklch(83% 0.06 162)", "oklch(95% 0.025 162)"] },
+      "brand-deep":   { "role": "primary",   "displayName": "Cedar Deep",     "canonical": "#14523B", "cssVar": "--brand-deep",  "tonalRamp": ["oklch(15% 0.04 162)", "oklch(22% 0.055 162)", "oklch(30% 0.07 162)", "oklch(39% 0.08 162)", "oklch(50% 0.085 162)", "oklch(64% 0.08 162)", "oklch(80% 0.06 162)", "oklch(94% 0.025 162)"] },
+      "brand-lt":     { "role": "primary",   "displayName": "Cedar Light (declared, unused)", "canonical": "#2F8A68", "cssVar": "--brand-lt", "tonalRamp": ["oklch(15% 0.04 162)", "oklch(26% 0.06 162)", "oklch(38% 0.08 162)", "oklch(50% 0.095 162)", "oklch(58% 0.1 162)", "oklch(70% 0.09 162)", "oklch(83% 0.065 162)", "oklch(95% 0.03 162)"] },
+      "accent":       { "role": "secondary", "displayName": "Brass",          "canonical": "#B98A2E", "cssVar": "--accent",      "tonalRamp": ["oklch(15% 0.04 85)", "oklch(27% 0.07 85)", "oklch(40% 0.1 85)", "oklch(52% 0.12 85)", "oklch(65% 0.13 85)", "oklch(76% 0.12 85)", "oklch(87% 0.08 85)", "oklch(95% 0.035 85)"] },
+      "accent-deep":  { "role": "secondary", "displayName": "Brass Deep",     "canonical": "#8F6A1F", "cssVar": "--accent-deep", "tonalRamp": ["oklch(15% 0.04 85)", "oklch(25% 0.07 85)", "oklch(36% 0.1 85)", "oklch(46% 0.115 85)", "oklch(55% 0.12 85)", "oklch(68% 0.11 85)", "oklch(82% 0.08 85)", "oklch(94% 0.035 85)"] },
+      "line":         { "role": "neutral",   "displayName": "Hairline",       "canonical": "rgba(20,32,28,.16)", "cssVar": "--line", "tonalRamp": ["rgba(20,32,28,.9)", "rgba(20,32,28,.72)", "rgba(20,32,28,.56)", "rgba(20,32,28,.42)", "rgba(20,32,28,.34)", "rgba(20,32,28,.24)", "rgba(20,32,28,.16)", "rgba(20,32,28,.08)"] },
+      "line-strong":  { "role": "neutral",   "displayName": "Hairline Strong", "canonical": "rgba(20,32,28,.34)", "cssVar": "--line-strong", "tonalRamp": ["rgba(20,32,28,.9)", "rgba(20,32,28,.72)", "rgba(20,32,28,.56)", "rgba(20,32,28,.42)", "rgba(20,32,28,.34)", "rgba(20,32,28,.24)", "rgba(20,32,28,.16)", "rgba(20,32,28,.08)"] },
+      "closed-clay":  { "role": "tertiary",  "displayName": "Closed Clay (hardcoded, no custom property)", "canonical": "#8A3B2E", "tonalRamp": ["oklch(15% 0.05 30)", "oklch(25% 0.08 30)", "oklch(34% 0.1 30)", "oklch(43% 0.11 30)", "oklch(55% 0.12 30)", "oklch(68% 0.1 30)", "oklch(82% 0.07 30)", "oklch(94% 0.03 30)"] }
+    },
+    "typographyMeta": {
+      "display":  { "displayName": "Display",  "purpose": "The one page headline (.hero h1, .page-head h1, .thanks h1). Fustat 650, tracking -0.025em; one phrase may be cedar via em." },
+      "headline": { "displayName": "Headline", "purpose": "Section and band heads (.section-head h2, .band h2). Fustat 620, balanced wrapping, max 18ch in bands." },
+      "course":   { "displayName": "Course",   "purpose": "Sticky course heading over dish rows; aisle, place-card and ticket heads use the steps below it." },
+      "title":    { "displayName": "Title",    "purpose": "Dish names, market goods, ticket lines, radio-card labels, pricelist items. Fustat 600 at 1.15rem." },
+      "body":     { "displayName": "Body",     "purpose": "Descriptions, ledes, notes in the system sans, muted, capped at 52-60ch." },
+      "price":    { "displayName": "Price",    "purpose": "Every price: Red Hat Mono 500, tabular-nums, forced LTR, one step below the dish name. Estimated prices carry a brass-deep ~." },
+      "label":    { "displayName": "Label",    "purpose": "Mono labels: item codes, units, tags, counts, form labels, footer heads, the rail label, the stamp. 0.72-0.84rem with 0.05-0.14em tracking; uppercase only on the rail label, stamp and wordmark sub." }
+    },
+    "scriptFaces": [
+      { "lang": "ar", "dir": "rtl", "fontFamily": "Fustat, Noto Naskh Arabic, system-ui, sans-serif", "note": "html[dir=rtl] swaps --display and --sans to the Arabic stack; heading letter-spacing 0, line-height 1.3" },
+      { "lang": "fa", "dir": "rtl", "fontFamily": "Vazirmatn, Fustat, system-ui, sans-serif" },
+      { "lang": "ur", "dir": "rtl", "fontFamily": "Noto Nastaliq Urdu, Fustat, system-ui, sans-serif", "note": "body line-height 1.9" },
+      { "lang": "hi", "dir": "ltr", "fontFamily": "Noto Sans Devanagari, Fustat, system-ui, sans-serif" }
+    ],
+    "shadows": [
+      { "name": "sheet",  "value": "0 10px 30px -12px rgba(20,32,28,.28), 0 2px 6px -2px rgba(20,32,28,.14)", "purpose": "The card on the counter; reused by the language menu, the toast, and a hovered place card." },
+      { "name": "sheet-highlight", "value": "inset 0 0 0 1px rgba(255,255,255,.6)", "purpose": "1px inset highlight on the sheet's ::before; reads as coated stock." },
+      { "name": "ticket", "value": "-20px 0 50px -30px rgba(20,32,28,.4)", "purpose": "The cart drawer sliding over the sheet; mirrored to 20px under RTL." },
+      { "name": "slip",   "value": "0 8px 18px -12px rgba(20,32,28,.35)", "purpose": "A review slip resting on the card; the only shadow inside the sheet, because the slip is a second piece of paper." },
+      { "name": "scrim",  "value": "rgba(20,32,28,.35) + backdrop-filter: blur(2px)", "purpose": "Under the open ticket only." }
+    ],
+    "motion": [
+      { "name": "ease",   "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "The only easing." },
+      { "name": "fast",   "value": "180ms", "purpose": "Fills, borders, nav underline, toast." },
+      { "name": "slow",   "value": "420ms", "purpose": "Ticket drawer, scrim, order bar, reveal, bump/press/stamp keyframes." },
+      { "name": "bump",   "value": "scale 1 -> 1.06 -> 1 over var(--slow)", "purpose": "Cart count change." },
+      { "name": "press",  "value": "scale .9 -> 1.08 -> 1 over var(--slow)", "purpose": "Add stamp when an item lands in the ticket; fill goes cedar." },
+      { "name": "stamp",  "value": "opacity 0 -> 1, translateY(-6px) scale(.98) -> none", "purpose": "A new ticket line." },
+      { "name": "reveal", "value": "opacity 0 -> 1, translateY(12px) -> none, rootMargin -8%", "purpose": ".rv elements on intersection." },
+      { "name": "lattice-draw", "value": "stroke-dashoffset 1 -> 0 over 2.6s, 250ms stagger x5", "purpose": "Home hero geometry only (inline style in index.html)." },
+      { "name": "marquee-slide", "value": "translateX(calc(-50% - 8px)) over var(--marquee-dur, 70s) linear infinite; slide-rtl mirrors under RTL; paused on :hover and :focus-within", "purpose": "The review slips marquee; under reduced motion it becomes a scroll-snap row and the duplicate copy is hidden." },
+      { "name": "reduced-motion", "value": "animation: none; transition: none; .rv at rest", "purpose": "prefers-reduced-motion removes all motion." }
+    ],
+    "breakpoints": [
+      { "name": "aside-collapse", "value": "1040px", "note": "menu aside -> course-nav pills; footer 2 col; checkout stacks summary-first" },
+      { "name": "phone-sheet",    "value": "860px",  "note": "rail off, sheet flush and shadowless, body = paper, two-row top bar, order bar on, steps 2x2, single columns" },
+      { "name": "narrow",         "value": "520px",  "note": "dish row 84px photo with price + add under the name; goods 2 col; hero buttons full width" }
+    ],
+    "zIndex": [
+      { "name": "top", "value": 40 }, { "name": "orderbar", "value": 45 }, { "name": "lang-menu", "value": 50 },
+      { "name": "scrim", "value": 55 }, { "name": "ticket", "value": 60 }, { "name": "toast", "value": 70 }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The commit action: cedar fill, paper text, 4px square corners, 48px tall. Inverts to paper on a cedar band and to ink on a brass band.",
+      "html": "<button class=\"ds-btn-primary\">Order pickup</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:.5em;padding:14px 22px;min-height:48px;border-radius:var(--r,4px);border:1px solid var(--brand,#1E6B4F);background:var(--brand,#1E6B4F);color:var(--ink-on-brand,#F4F8F5);font:600 .95rem/1 var(--display,'Fustat',system-ui,sans-serif);text-decoration:none;cursor:pointer;transition:background 180ms cubic-bezier(.16,1,.3,1),border-color 180ms cubic-bezier(.16,1,.3,1),transform 180ms cubic-bezier(.16,1,.3,1)}.ds-btn-primary:hover{background:var(--brand-deep,#14523B);border-color:var(--brand-deep,#14523B)}.ds-btn-primary:active{transform:translateY(1px)}.ds-btn-primary:focus-visible{outline:2px solid var(--brand,#1E6B4F);outline-offset:2px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The secondary action beside a primary: transparent, hairline-strong outline, ink text; hover fills the mat and the outline goes ink.",
+      "html": "<button class=\"ds-btn-ghost\">Shop the market</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:.5em;padding:14px 22px;min-height:48px;border-radius:var(--r,4px);border:1px solid var(--line-strong,rgba(20,32,28,.34));background:transparent;color:var(--ink,#14201C);font:600 .95rem/1 var(--display,'Fustat',system-ui,sans-serif);cursor:pointer;transition:background 180ms cubic-bezier(.16,1,.3,1),border-color 180ms cubic-bezier(.16,1,.3,1)}.ds-btn-ghost:hover{background:var(--paper-2,#F3EEE4);border-color:var(--ink,#14201C)}.ds-btn-ghost:active{transform:translateY(1px)}.ds-btn-ghost:focus-visible{outline:2px solid var(--brand,#1E6B4F);outline-offset:2px}"
+    },
+    {
+      "name": "Brass Button",
+      "kind": "button",
+      "refersTo": "button-brass",
+      "description": "The market's primary: brass fill with ink text; hover goes brass-deep with paper text. Market surfaces only.",
+      "html": "<button class=\"ds-btn-brass\">Shop the market</button>",
+      "css": ".ds-btn-brass{display:inline-flex;align-items:center;justify-content:center;gap:.5em;padding:14px 22px;min-height:48px;border-radius:var(--r,4px);border:1px solid var(--accent,#B98A2E);background:var(--accent,#B98A2E);color:var(--ink,#14201C);font:600 .95rem/1 var(--display,'Fustat',system-ui,sans-serif);cursor:pointer;transition:background 180ms cubic-bezier(.16,1,.3,1),color 180ms cubic-bezier(.16,1,.3,1)}.ds-btn-brass:hover{background:var(--accent-deep,#8F6A1F);border-color:var(--accent-deep,#8F6A1F);color:var(--paper,#FBF8F2)}.ds-btn-brass:focus-visible{outline:2px solid var(--ink,#14201C);outline-offset:2px}"
+    },
+    {
+      "name": "Add Stamp",
+      "kind": "button",
+      "refersTo": "add-stamp",
+      "description": "The round add control beside every dish: 44px circle, 1.5px ink stroke, paper fill; ink on hover, 0.92 on press, cedar with a press animation once the item is in the ticket.",
+      "html": "<button class=\"ds-add\" aria-label=\"Add Shawarma Chicken\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button> <button class=\"ds-add ds-add--pressed\" aria-label=\"Added\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12l5 5L20 7\"/></svg></button>",
+      "css": ".ds-add{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--ink,#14201C);background:var(--paper,#FBF8F2);color:var(--ink,#14201C);display:inline-grid;place-items:center;cursor:pointer;flex:none;transition:background 180ms cubic-bezier(.16,1,.3,1),transform 180ms cubic-bezier(.16,1,.3,1),border-color 180ms cubic-bezier(.16,1,.3,1)}.ds-add svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ds-add:hover{background:var(--ink,#14201C);color:var(--paper,#FBF8F2)}.ds-add:active{transform:scale(.92)}.ds-add:focus-visible{outline:2px solid var(--brand,#1E6B4F);outline-offset:2px}.ds-add--pressed{background:var(--brand,#1E6B4F);border-color:var(--brand,#1E6B4F);color:var(--paper,#FBF8F2);animation:ds-press 420ms cubic-bezier(.16,1,.3,1)}@keyframes ds-press{0%{transform:scale(.9)}50%{transform:scale(1.08)}100%{transform:scale(1)}}"
+    },
+    {
+      "name": "Dish Row",
+      "kind": "custom",
+      "refersTo": "title",
+      "description": "The unit the card is built from: 4:3 photo in a hairline border, item-code chip + Fustat name, muted description, mono tags, tabular price, round add stamp, dashed hairline below.",
+      "html": "<article class=\"ds-dish\"><div class=\"ds-dish-img\" role=\"img\" aria-label=\"photo\"></div><div class=\"ds-dish-body\"><h3><span class=\"ds-code\">M2</span>Shawarma Chicken</h3><p>Marinated chicken sliced to order, with garlic sauce, pickles and rice.</p><span class=\"ds-tag\">Serves 1</span></div><div class=\"ds-dish-side\"><span class=\"ds-price\">$17.99</span><button class=\"ds-add\" aria-label=\"Add Shawarma Chicken\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button></div></article>",
+      "css": ".ds-dish{display:grid;grid-template-columns:112px minmax(0,1fr) auto;gap:18px;align-items:center;padding:16px 0;border-bottom:1px dashed var(--line,rgba(20,32,28,.16));color:var(--ink,#14201C);font:400 1rem/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;max-width:720px}.ds-dish-img{width:112px;aspect-ratio:4/3;border-radius:6px;background:var(--paper-2,#F3EEE4);border:1px solid var(--line,rgba(20,32,28,.16))}.ds-dish-body h3{margin:0;font:600 1.15rem/1.05 var(--display,'Fustat',system-ui,sans-serif);letter-spacing:-.025em;display:flex;gap:.55em;align-items:baseline;flex-wrap:wrap}.ds-code{font:500 .72rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.08em;color:var(--muted,#5B6661);padding:3px 5px;border:1px solid var(--line,rgba(20,32,28,.16));border-radius:2px;direction:ltr;unicode-bidi:isolate}.ds-dish-body p{margin:4px 0 0;color:var(--muted,#5B6661);font-size:.94rem;max-width:58ch}.ds-tag{display:inline-block;font:500 .74rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.08em;color:var(--brand-deep,#14523B);margin-top:6px;direction:ltr;unicode-bidi:isolate}.ds-dish-side{display:flex;align-items:center;gap:14px;justify-self:end}.ds-price{font:500 1.05rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);font-variant-numeric:tabular-nums;letter-spacing:-.01em;white-space:nowrap;direction:ltr;unicode-bidi:isolate}.ds-add{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--ink,#14201C);background:var(--paper,#FBF8F2);color:var(--ink,#14201C);display:inline-grid;place-items:center;cursor:pointer;flex:none;transition:background 180ms cubic-bezier(.16,1,.3,1),transform 180ms cubic-bezier(.16,1,.3,1)}.ds-add svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}.ds-add:hover{background:var(--ink,#14201C);color:var(--paper,#FBF8F2)}.ds-add:active{transform:scale(.92)}.ds-add:focus-visible{outline:2px solid var(--brand,#1E6B4F);outline-offset:2px}"
+    },
+    {
+      "name": "Choice Chip",
+      "kind": "chip",
+      "refersTo": "choice-chip",
+      "description": "A pill radio/checkbox for variants and required choices in the inline config panel; selected fills ink with paper text.",
+      "html": "<label class=\"ds-choice\"><input type=\"radio\" name=\"ds-size\" checked><span>Small <b>$4.50</b></span></label> <label class=\"ds-choice\"><input type=\"radio\" name=\"ds-size\"><span>Large <b>$7.50</b></span></label>",
+      "css": ".ds-choice{position:relative;display:inline-block;margin-inline-end:8px}.ds-choice input{position:absolute;opacity:0;inset:0;cursor:pointer;margin:0}.ds-choice>span{display:inline-flex;align-items:center;gap:.5em;padding:9px 14px;min-height:40px;border:1px solid var(--line-strong,rgba(20,32,28,.34));border-radius:999px;background:var(--paper,#FBF8F2);color:var(--ink,#14201C);font:400 .92rem/1 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;transition:background 180ms cubic-bezier(.16,1,.3,1),color 180ms cubic-bezier(.16,1,.3,1)}.ds-choice>span b{font:500 .92rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);font-variant-numeric:tabular-nums}.ds-choice:hover>span{background:var(--paper-2,#F3EEE4)}.ds-choice input:checked+span{background:var(--ink,#14201C);color:var(--paper,#FBF8F2);border-color:var(--ink,#14201C)}.ds-choice input:focus-visible+span{outline:2px solid var(--brand,#1E6B4F);outline-offset:2px}"
+    },
+    {
+      "name": "Quantity Pill",
+      "kind": "custom",
+      "refersTo": "quantity-pill",
+      "description": "The pill stepper: 40px tall ink outline, square inner buttons that darken to the counter on hover, a mono output between.",
+      "html": "<div class=\"ds-qty\"><button type=\"button\" aria-label=\"Fewer\">−</button><output>2</output><button type=\"button\" aria-label=\"More\">+</button></div>",
+      "css": ".ds-qty{display:inline-flex;align-items:center;border:1px solid var(--ink,#14201C);border-radius:999px;overflow:hidden;height:40px;background:var(--paper,#FBF8F2);color:var(--ink,#14201C)}.ds-qty button{width:40px;height:40px;border:0;background:var(--paper,#FBF8F2);color:inherit;font:400 1.1rem/1 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;cursor:pointer;transition:background 180ms}.ds-qty button:hover{background:var(--paper-3,#EAE3D6)}.ds-qty button:focus-visible{outline:2px solid var(--brand,#1E6B4F);outline-offset:-3px}.ds-qty output{min-width:2.4em;text-align:center;font:500 1rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Mono label over a 48px paper field with a hairline-strong border; focus turns the border cedar under a 2px cedar outline; invalid turns it clay and reveals the message.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-phone\">Mobile phone</label><input id=\"ds-phone\" type=\"tel\" placeholder=\"(281) 555-0123\"><span class=\"ds-hint\">We text you when the order is ready.</span></div><div class=\"ds-field ds-field--invalid\"><label for=\"ds-name\">Your name</label><input id=\"ds-name\" type=\"text\"><span class=\"ds-error\">Please enter a name for the ticket.</span></div>",
+      "css": ".ds-field{display:grid;gap:6px;max-width:420px;margin-bottom:18px;color:var(--ink,#14201C)}.ds-field label{font:500 .84rem/1.45 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.01em;color:var(--muted,#5B6661)}.ds-field input{font:400 1rem/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;padding:13px 14px;border:1px solid var(--line-strong,rgba(20,32,28,.34));border-radius:var(--r,4px);background:var(--paper,#FBF8F2);color:var(--ink,#14201C);width:100%;min-height:48px;box-sizing:border-box}.ds-field input::placeholder{color:#8A938F}.ds-field input:focus{outline:2px solid var(--brand,#1E6B4F);outline-offset:0;border-color:var(--brand,#1E6B4F)}.ds-hint{font-size:.84rem;color:var(--muted,#5B6661)}.ds-field--invalid input{border-color:#8A3B2E}.ds-error{font-size:.84rem;color:#8A3B2E}"
+    },
+    {
+      "name": "Stepped Band",
+      "kind": "custom",
+      "refersTo": "step-band",
+      "description": "Pickup-time ladder: one ink outline, equal cells with ink dividers, Fustat label over a sans sub-label; the selected cell fills cedar. Folds to 2x2 below 860px.",
+      "html": "<div class=\"ds-steps\" role=\"radiogroup\" aria-label=\"When\"><label><input type=\"radio\" name=\"ds-when\" checked><span><b>ASAP</b><small>about 20–25 min</small></span></label><label><input type=\"radio\" name=\"ds-when\"><span><b>In 20 min</b><small>I'm on my way</small></span></label><label><input type=\"radio\" name=\"ds-when\"><span><b>In 45 min</b><small>a little later</small></span></label><label><input type=\"radio\" name=\"ds-when\"><span><b>Schedule</b><small>write the time in notes</small></span></label></div>",
+      "css": ".ds-steps{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid var(--ink,#14201C);border-radius:var(--r,4px);overflow:hidden;background:var(--paper,#FBF8F2);color:var(--ink,#14201C);max-width:640px}.ds-steps label{position:relative;cursor:pointer}.ds-steps input{position:absolute;opacity:0;inset:0;cursor:pointer;margin:0}.ds-steps label>span{display:grid;gap:3px;padding:12px 12px 10px;border-inline-end:1px solid var(--ink,#14201C);min-height:64px;text-align:center;box-sizing:border-box;transition:background 180ms cubic-bezier(.16,1,.3,1),color 180ms cubic-bezier(.16,1,.3,1)}.ds-steps label:last-child>span{border-inline-end:0}.ds-steps b{font:600 1rem/1.3 var(--display,'Fustat',system-ui,sans-serif)}.ds-steps small{font:400 .74rem/1.35 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--muted,#5B6661)}.ds-steps input:checked+span{background:var(--brand,#1E6B4F);color:var(--ink-on-brand,#F4F8F5)}.ds-steps input:checked+span small{color:inherit;opacity:.85}.ds-steps input:focus-visible+span{outline:2px solid var(--accent,#B98A2E);outline-offset:-3px}"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky paper bar with the bilingual wordmark, Fustat nav links underlined by a 2px cedar bar that scales in from the start edge, the pill language stamp, and the ink ticket button with its count chip.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-wordmark\" href=\"#\"><span class=\"ds-lat\">Zamani</span><span class=\"ds-ar\" lang=\"ar\" dir=\"rtl\">زماني</span><span class=\"ds-sub\">Grill &amp; Market</span></a><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Home</a><a href=\"#\">Menu</a><a href=\"#\">Market</a><a href=\"#\">Catering</a><a href=\"#\">Locations</a></nav><div class=\"ds-actions\"><button class=\"ds-lang\" type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18\"/></svg>EN</button><button class=\"ds-cartbtn\" type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 3h14v18l-2.3-1.6L14.4 21l-2.4-1.6L9.6 21l-2.3-1.6L5 21z\"/><path d=\"M9 8h6M9 12h6\"/></svg><span>Ticket</span><span class=\"ds-count\">2</span></button></div></header>",
+      "css": ".ds-top{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;padding:14px 24px 12px;border-bottom:1px solid var(--line,rgba(20,32,28,.16));background:var(--paper,#FBF8F2);color:var(--ink,#14201C)}.ds-wordmark{display:flex;align-items:baseline;gap:.55em;text-decoration:none;color:inherit;line-height:1}.ds-lat{font:700 1.45rem/1 var(--display,'Fustat',system-ui,sans-serif);letter-spacing:-.03em}.ds-ar{font:500 1.25rem/1 'Fustat','Noto Naskh Arabic',sans-serif;color:var(--brand,#1E6B4F);unicode-bidi:isolate}.ds-sub{font:500 .72rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.12em;text-transform:uppercase;color:var(--muted,#5B6661);padding-inline-start:.6em;border-inline-start:1px solid var(--line-strong,rgba(20,32,28,.34))}.ds-nav{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}.ds-nav a{font:500 .9rem/1 var(--display,'Fustat',system-ui,sans-serif);color:inherit;text-decoration:none;padding:10px 2px;position:relative;letter-spacing:-.005em}.ds-nav a::after{content:'';position:absolute;left:0;right:0;bottom:4px;height:2px;background:var(--brand,#1E6B4F);transform:scaleX(0);transform-origin:left;transition:transform 180ms cubic-bezier(.16,1,.3,1)}.ds-nav a:hover::after,.ds-nav a[aria-current=page]::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--brand,#1E6B4F);outline-offset:2px}.ds-actions{display:flex;align-items:center;gap:10px}.ds-lang{display:inline-flex;align-items:center;gap:.5em;padding:8px 12px;border:1px solid var(--line-strong,rgba(20,32,28,.34));border-radius:999px;font:500 .78rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.06em;background:var(--paper,#FBF8F2);color:inherit;cursor:pointer}.ds-lang svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}.ds-lang:hover{border-color:var(--ink,#14201C)}.ds-cartbtn{display:inline-flex;align-items:center;gap:.55em;border:1px solid var(--ink,#14201C);background:var(--ink,#14201C);color:var(--paper,#FBF8F2);padding:9px 14px;border-radius:var(--r,4px);font:600 .85rem/1 var(--display,'Fustat',system-ui,sans-serif);cursor:pointer;transition:background 180ms cubic-bezier(.16,1,.3,1)}.ds-cartbtn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ds-cartbtn:hover{background:var(--brand-deep,#14523B);border-color:var(--brand-deep,#14523B)}.ds-count{font:600 .78rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);background:var(--paper,#FBF8F2);color:var(--ink,#14201C);min-width:1.6em;padding:3px 5px;border-radius:2px;text-align:center}"
+    },
+    {
+      "name": "Frame with Stamp",
+      "kind": "card",
+      "refersTo": "frame",
+      "description": "The only way a photo appears: a 10px mat in paper-2 with a hairline border, a 6px-radius 4:3 image, a caption naming dish and provenance, and optionally the 2°-rotated brass stamp.",
+      "html": "<figure class=\"ds-frame\"><span class=\"ds-stamp\">From our kitchen</span><div class=\"ds-frame-img\" role=\"img\" aria-label=\"Shawarma Chicken\"></div><figcaption><b>M2 · Shawarma Chicken</b><span class=\"ds-price\">$17.99</span></figcaption></figure>",
+      "css": ".ds-frame{position:relative;margin:14px 0 0;background:var(--paper-2,#F3EEE4);border:1px solid var(--line,rgba(20,32,28,.16));border-radius:var(--r-lg,10px);padding:10px;max-width:360px;color:var(--ink,#14201C)}.ds-frame-img{border-radius:6px;aspect-ratio:4/3;width:100%;background:linear-gradient(135deg,var(--paper-3,#EAE3D6),var(--line-strong,rgba(20,32,28,.34)))}.ds-frame figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;padding:12px 6px 2px;font:400 .85rem/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;color:var(--muted,#5B6661)}.ds-frame figcaption b{color:var(--ink,#14201C);font-weight:600}.ds-price{font:500 .95rem/1.4 var(--mono,'Red Hat Mono',ui-monospace,monospace);font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate}.ds-stamp{position:absolute;top:-10px;inset-inline-end:18px;background:var(--accent,#B98A2E);color:var(--ink,#14201C);font:600 .74rem/1 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.12em;text-transform:uppercase;padding:7px 10px;border-radius:2px;transform:rotate(2deg)}"
+    },
+    {
+      "name": "Cedar Band",
+      "kind": "custom",
+      "refersTo": "band-cedar",
+      "description": "A region cedar owns: Fustat headline capped at 18ch, 90% body copy, a paper primary and a ghost with a 50% white outline, and a hairline fact ladder. The brass variant swaps the fill for market surfaces.",
+      "html": "<section class=\"ds-band\"><div><h2>Feeding a crowd? Family dinners from the grill.</h2><p>A Family Dinner for four is $75.99. Deluxe for six, with filet mignon, is $115.</p><div class=\"ds-band-cta\"><a class=\"ds-band-btn\" href=\"#\">Plan catering</a><a class=\"ds-band-btn ds-band-btn--ghost\" href=\"#\">Order a family dinner</a></div></div><div><div class=\"ds-fact\"><b>$75.99</b><span>Family Dinner · serves 4</span></div><div class=\"ds-fact\"><b>$115</b><span>Deluxe Family Dinner · serves 6</span></div></div></section>",
+      "css": ".ds-band{background:var(--brand,#1E6B4F);color:var(--ink-on-brand,#F4F8F5);padding:40px 32px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:center;font:400 1rem/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.ds-band h2{margin:0 0 14px;font:620 clamp(1.9rem,3.6vw,3rem)/1.05 var(--display,'Fustat',system-ui,sans-serif);letter-spacing:-.025em;max-width:18ch;text-wrap:balance}.ds-band p{margin:0;opacity:.9;max-width:56ch}.ds-band-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.ds-band-btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;min-height:48px;border-radius:var(--r,4px);border:1px solid var(--paper,#FBF8F2);background:var(--paper,#FBF8F2);color:var(--ink,#14201C);font:600 .95rem/1 var(--display,'Fustat',system-ui,sans-serif);text-decoration:none;box-sizing:border-box;transition:background 180ms cubic-bezier(.16,1,.3,1)}.ds-band-btn:hover{background:var(--paper-2,#F3EEE4)}.ds-band-btn--ghost{background:transparent;color:var(--ink-on-brand,#F4F8F5);border-color:rgba(255,255,255,.5)}.ds-band-btn--ghost:hover{background:rgba(255,255,255,.1)}.ds-band-btn:focus-visible{outline:2px solid var(--accent,#B98A2E);outline-offset:2px}.ds-fact{display:grid;gap:4px;padding:16px 0;border-top:1px solid rgba(255,255,255,.25)}.ds-fact b{font:600 1.6rem/1.15 var(--display,'Fustat',system-ui,sans-serif);font-variant-numeric:tabular-nums}.ds-fact span{opacity:.85;font-size:.9rem}@media (max-width:860px){.ds-band{grid-template-columns:minmax(0,1fr)}}"
+    },
+    {
+      "name": "Review Slip",
+      "kind": "card",
+      "refersTo": "review-slip",
+      "description": "A verbatim public review as a paper slip on the card: brass stars, LTR blockquote with a brass Fustat opening quote, mono footer with name, source and year; soft slip shadow and a slight tilt. Slips ride a 70s marquee that pauses on hover/focus and becomes a scroll-snap row under reduced motion.",
+      "html": "<div class=\"ds-marquee\" role=\"list\"><article class=\"ds-slip\" role=\"listitem\"><div class=\"ds-stars\" aria-label=\"5 out of 5\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z\"/></svg><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z\"/></svg></div><blockquote lang=\"en\">Amazing food and customer service! The best shawarma in Houston!</blockquote><footer><b>Muhammad I.</b><span>Google · 2025</span></footer></article><article class=\"ds-slip\" role=\"listitem\"><div class=\"ds-stars\" aria-label=\"5 out of 5\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1.1 5.9L12 16.9l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.8z\"/></svg></div><blockquote lang=\"en\">Second slip, tilted the other way.</blockquote><footer><b>Name I.</b><span>Source · Year</span></footer></article></div>",
+      "css": ".ds-marquee{display:flex;gap:16px;width:max-content;padding:8px 16px;color:var(--ink,#14201C)}.ds-slip{flex:none;width:min(320px,78vw);background:var(--paper,#FBF8F2);border:1px solid var(--line-strong,rgba(20,32,28,.34));border-radius:var(--r,4px);padding:18px 18px 16px;display:grid;gap:10px;align-content:start;box-shadow:0 8px 18px -12px rgba(20,32,28,.35);transform:rotate(var(--tilt,0deg));box-sizing:border-box;font:400 1rem/1.55 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.ds-slip:nth-child(3n+1){--tilt:-.6deg}.ds-slip:nth-child(3n+2){--tilt:.5deg}.ds-slip:nth-child(3n){--tilt:-.3deg}.ds-stars{display:flex;gap:2px}.ds-stars svg{width:14px;height:14px;fill:var(--accent,#B98A2E)}.ds-slip blockquote{margin:0;font-size:.98rem;line-height:1.5;direction:ltr;text-align:start;unicode-bidi:isolate}.ds-slip blockquote::before{content:'\\201C';color:var(--accent,#B98A2E);font:700 1.6rem/0 var(--display,'Fustat',system-ui,sans-serif);vertical-align:-.35em;margin-inline-end:.1em}.ds-slip footer{display:grid;gap:2px;font:500 .74rem/1.35 var(--mono,'Red Hat Mono',ui-monospace,monospace);color:var(--muted,#5B6661);letter-spacing:.02em;direction:ltr;margin-top:auto}.ds-slip footer b{color:var(--ink,#14201C);font-weight:600}"
+    },
+    {
+      "name": "Unverified Tag",
+      "kind": "chip",
+      "refersTo": "unverified-tag",
+      "description": "The provisional mark: mono brass-deep text in a dashed brass 2px border. Means a business fact is not yet confirmed.",
+      "html": "<span class=\"ds-unverified\">Hours and phone from a directory listing — confirming with the store</span>",
+      "css": ".ds-unverified{display:inline-block;font:500 .74rem/1.3 var(--mono,'Red Hat Mono',ui-monospace,monospace);letter-spacing:.05em;color:var(--accent-deep,#8F6A1F);border:1px dashed var(--accent,#B98A2E);padding:6px 8px;border-radius:2px;max-width:40ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Levant Menu Card",
+    "overview": "The whole site is one printed menu card lying on a counter. Every page is the same bright sheet of coated card stock (paper) set on a slightly darker counter (paper-3), with one soft shadow underneath and a 1px ruler rail down its left edge that keeps every course heading, price column, and section break on one vertical axis. The lineage is the 1960s–70s Beirut hotel and Middle East Airlines dining menu: bilingual, one spot color, prices set in tabular figures, photography as a garnish in its own frame and never as the ground. The menu is the page; the first course and its prices are already on the card when the first viewport lands, with a live round \"add\" stamp beside each dish.\n\nColor is committed at region scale. One cedar green (brand) owns whole fields: the catering band, the order rail pinned to the bottom of a phone, a selected pickup-time step, the selected language. It is never dusted across the page as tints. Brass (accent) is the counterweight and belongs to the market surfaces (the market page band, the Riley Fuzzel location band, the home market band) and to marks of provisionality: the rotated \"from our kitchen\" stamp on the hero frame, the dashed \"hours unverified\" tag, the ~ on an estimated price. Everything else is ink on paper separated by hairlines: solid between sections, dashed between dishes, dotted between hours.\n\nThe build is density-tolerant by design. A dish row is 16px of vertical padding over a dashed hairline, a course is a sticky heading plus rows, and a section is one hairline away from the next. Nothing is a floating card except the sheet itself; depth belongs to the things that lift off the card (the ticket drawer, the language menu, a toast, a place card on hover) and to the review slips, which are small paper slips laid on the card at a slight tilt. The system refuses the category standard it was rolled against: no full-bleed food hero, no \"Order Online\" button floating over a photo, no feature-card triptych, no text over photography.",
+    "keyCharacteristics": [
+      "One sheet, one shadow, one ruler rail; everything inside the sheet is flat and ruled by hairlines.",
+      "Cedar green at region scale; brass for the market and for anything provisional; ink does the rest.",
+      "Three voices: Fustat for names and headings, the system sans for sentences, Red Hat Mono for every number and label.",
+      "Every control is a distinct shape (round add, pill quantity and chips, 4px-square buttons, 3px-square remove) and changes state by fill, never by tint alone.",
+      "Photos live in a padded frame on a paper-2 mat with a caption below; text never sits on a photo.",
+      "Five scripts, one card: Arabic, Farsi, and Urdu mirror the whole sheet right-to-left with their own faces; Hindi stays left-to-right in Devanagari; prices, codes, and phone numbers stay LTR Western digits inside isolated spans."
+    ],
+    "rules": [
+      { "name": "The Region Rule", "section": "colors", "body": "Cedar commits at region scale. A cedar surface is a whole band, bar, cell, or button, never a tinted panel, a 10% wash behind a section, or a pale green background. The one cedar tint in the build (rgba(30,107,79,.08) behind a selected radio card) is paired with a full cedar border; tint never carries state alone." },
+      { "name": "The Brass Rule", "section": "colors", "body": "Brass means \"market\" or \"not yet confirmed.\" A brass field appears only on market surfaces; a brass mark appears only as a stamp, a dashed tag, or a ~. Brass never colors a heading, a price, or body copy." },
+      { "name": "The Two-Ink Rule", "section": "colors", "body": "Type is ink or muted. Cedar, brass, and clay may color a word only when they carry a meaning (the hero em, an open/closed state, a provisional label, a link)." },
+      { "name": "The Three-Voice Rule", "section": "typography", "body": "Fustat speaks names and headings, the system sans speaks sentences, Red Hat Mono speaks numbers and labels. No fourth face enters a surface, and no voice borrows another's job: a price is never set in Fustat, a sentence is never set in mono." },
+      { "name": "The Quiet Price Rule", "section": "typography", "body": "Size carries hierarchy: the dish name at title size, the price one step smaller in tabular figures, flush to the end of the row. A price is never larger, bolder, or more colorful than the name beside it." },
+      { "name": "The Script Rule", "section": "typography", "body": "Right-to-left pages drop heading letter-spacing to 0 and relax heading line-height to 1.3; Urdu body copy runs at 1.9. Prices, item codes, tags, and phone numbers stay LTR Western digits inside unicode-bidi: isolate spans, in every language." },
+      { "name": "The One Sheet Rule", "section": "elevation", "body": "Inside the sheet nothing casts a shadow unless it is itself a piece of paper laid on the card (a review slip). Separation is a hairline (line), a dashed hairline, a mat (paper-2), or a 1px line-strong outline. Any other shadow means the element has left the card." }
+    ],
+    "dos": [
+      "Do put every new surface inside the one sheet, with the ruler rail and the top bar, inset by --card-pad; a new page is a new region of the same card, not a new card.",
+      "Do separate content with hairlines: solid line between sections, dashed between rows, dotted between hours. Reach for paper-2 when a region needs to recede.",
+      "Do set every number in Red Hat Mono with tabular figures, forced LTR, one step smaller than the name it belongs to.",
+      "Do commit cedar to a whole region or a whole control (a band, the order bar, a selected step, a pressed stamp) and let brass mark the market and anything unconfirmed.",
+      "Do give every control its shape: round to add, pill to count or choose, square to commit, small square to remove; show state by fill (ink or cedar) with the text inverting to paper.",
+      "Do keep photos in a .frame with a mat, a 1px border, and a caption that names the dish and its provenance; put text beside a photo, never on it.",
+      "Do test each new surface in Arabic and Urdu: logical properties (inline-start/inline-end) everywhere, unicode-bidi: isolate on prices, codes, and phone numbers, and heading tracking reset to 0 under RTL.",
+      "Do label unconfirmed business facts with the dashed brass .unverified tag or a ~ on the price; the provisional mark is part of the system."
+    ],
+    "donts": [
+      "Don't use a full-bleed photo, a photo behind text, or a gradient; the ground is always card stock.",
+      "Don't add shadows to anything inside the sheet; the sheet, the ticket, the language menu, a toast, a hovered place card, and the review slips (a second piece of paper on the card) are the complete list of things that lift.",
+      "Don't tint cedar or brass behind a section, or carry state with a tint alone; the 8% cedar wash exists only under a selected radio card and only together with a cedar border.",
+      "Don't introduce a fourth typeface, an italic, or an all-caps run longer than a mono label; the three uppercase runs on the card are the rail label, the brass stamp, and \"Grill & Market\" in the wordmark.",
+      "Don't make a price louder than its dish: never bold, never larger than the name, never colored except the brass-deep ~ on an estimate.",
+      "Don't replace the stepped band with a dropdown or the inline config panel with a modal; choices open in place, on the card.",
+      "Don't use brand-lt, #8A938F, or any new hex without first giving it a role here; the palette is complete at fourteen values.",
+      "Don't add decorative eyebrows or kickers above headings; the heading and the item-code chip are the only things that precede a name on this card."
+    ],
+    "notCanonized": [
+      "Two mono eyebrows with a 2rem cedar dash in updates.html (Faisel's change-request portal, inline-styled, outside css/site.css): a defect the portal page carries, not a pattern for new surfaces.",
+      "The home hero's eight-point lattice SVG (inline style in index.html, drawn once): a one-page device, not a system geometry.",
+      "Closed Clay #8A3B2E is written literally six times with no custom property; recorded as a token by use, but the stylesheet should promote it.",
+      "--brand-lt is declared and unused; kept in the frontmatter under the client-site contract, flagged reserved.",
+      "Open ceiling items from the finish review, recorded as absent rather than as rules: English-only course headings (no bilingual pair), dashed row separators instead of dot leaders between name and price, price ladders as hairline fact rows rather than stepped bands (the stepped band exists only for pickup time), stroke SVG icons rather than one-weight pictograms for courses, and Google-hosted rather than self-hosted fonts."
+    ]
+  }
+}
