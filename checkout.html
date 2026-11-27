@@ -59,8 +59,9 @@
       <div class="co-head">
         <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem);margin-bottom:8px" data-i18n="co.h1">Pickup &amp; pay</h1>
         <p class="lede" data-i18n="co.lede">Three steps: who it's for, when you'll pick it up, how you'd like to pay.</p>
+        <div class="notice brass" role="note" style="margin-top:16px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span><span data-i18n="order.soon">Online ordering opens soon. For now, call us and we'll take your pickup order by phone:</span> <a href="tel:+12812519111" class="mono" dir="ltr" style="white-space:nowrap">(281) 251-9111</a></span></div>
       </div>
-      <div class="co-form">
+      <div class="co-form" hidden>
         <form id="checkout" class="form" novalidate data-payments-enabled="false">
           <div class="two">
             <div class="field"><label for="name" data-i18n="form.name">Your name</label><input id="name" name="name" required autocomplete="name"><span class="error" data-i18n="form.nameErr">We need a name for the bag.</span></div>
