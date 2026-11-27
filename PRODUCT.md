@@ -12,7 +12,7 @@ Static HTML/CSS/JS, one `<style>` and one `<script>` per page, JSON content file
 
 ## Users
 
-- **Primary:** Spring / North Houston diners deciding where to eat or ordering pickup from a phone, often in a car or at work. Many are repeat customers who already know the shawarma and family dinners; a growing share find the restaurant through Google Maps searches like "halal near me", "Lebanese food Spring TX", "shawarma Louetta".
+- **Primary:** Spring / North Houston diners deciding where to eat or ordering pickup from a phone, often in a car or at work. Many are repeat customers who already know the shawarma and family dinners; a growing share find the restaurant through Google Maps searches like "halal near me", "Mediterranean food Spring TX", "shawarma Louetta".
 - **Secondary:** Halal grocery shoppers near Riley Fuzzel Rd (Spring 77386) looking for meat, spices, and pantry staples, and checking whether the market is open before driving.
 - **Tertiary:** Families and offices booking catering or family dinners for 4 to 6+ people; the congregation of the mosque directly across from the Louetta location (confirmed by Faisel 2026-11-03), many of whom read Arabic, Farsi, Hindi, or Urdu more comfortably than English.
 
@@ -22,7 +22,7 @@ One combined website for Zamani Grill & Market that replaces two disconnected Wo
 
 ## Positioning
 
-The only place in Spring that is both a Lebanese grill and a halal market under one family, two locations, since 2008 on Louetta. Neighbors can eat the mixed grill and buy the same halal meat and spices to cook at home. Competitors are either a restaurant (Zara's Mediterranean, Nadia's, Lebanese Cuisine Aileen) or a grocery (Al Eman Halal Meat, K&K Grocery), never both.
+The only place in Spring that is both a Mediterranean grill and a halal market under one family, two locations, since 2008 on Louetta. Neighbors can eat the mixed grill and buy the same halal meat and spices to cook at home. Competitors are either a restaurant (Zara's Mediterranean, Nadia's, Mediterranean Cuisine Aileen) or a grocery (Al Eman Halal Meat, K&K Grocery), never both.
 
 ## Operating Context
 

@@ -468,3 +468,7 @@ html[dir="rtl"] .marquee{animation-name:slide-rtl}
   .sheet{box-shadow:none;margin:0}
   .course-head{position:static}
 }
+
+/* TEMPORARY: online ordering is switched off until launch. This hides every ordering control
+   (add buttons, the ticket, the order bar). Delete this block to bring them back. */
+.cartbtn,.add,.config,.ticket,.scrim,.orderbar{display:none!important}
