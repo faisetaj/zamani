@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en" dir="ltr" data-tax="0.0825">
 <head>
-<title data-i18n="title.checkout">Pickup &amp; pay · Zamani Grill &amp; Market</title>
-<meta name="description" content="Choose a pickup time and pay for your Zamani order.">
+<title data-i18n="title.checkout">Online ordering coming soon · Zamani Grill &amp; Market</title>
+<meta name="description" content="Online ordering at Zamani Grill &amp; Market is coming soon.">
 <meta name="robots" content="noindex, nofollow">
 <!-- @head -->
 <meta charset="utf-8">
@@ -57,9 +57,10 @@
   <main class="main" id="main">
     <div class="checkout">
       <div class="co-head">
-        <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem);margin-bottom:8px" data-i18n="co.h1">Pickup &amp; pay</h1>
-        <p class="lede" data-i18n="co.lede">Three steps: who it's for, when you'll pick it up, how you'd like to pay.</p>
-        <div class="notice brass" role="note" style="margin-top:16px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span><span data-i18n="order.soon">Online ordering opens soon. For now, call us and we'll take your pickup order by phone:</span> <a href="tel:+12812519111" class="mono" dir="ltr" style="white-space:nowrap">(281) 251-9111</a></span></div>
+        <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem);margin-bottom:8px" data-i18n="order.soonTitle">Online ordering is coming soon</h1>
+        <p class="lede" data-i18n="co.lede" hidden>Three steps: who it's for, when you'll pick it up, how you'd like to pay.</p>
+        <div class="notice brass" role="note" style="margin-top:16px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span><span data-i18n="order.soon">Online ordering is coming soon. For now, call us and we'll take your pickup order by phone:</span> <a href="tel:+12812519111" class="mono" dir="ltr" style="white-space:nowrap">(281) 251-9111</a></span></div>
+        <p style="margin-top:20px"><a class="btn" href="menu" data-i18n="fav.full">See the full menu</a></p>
       </div>
       <div class="co-form" hidden>
         <form id="checkout" class="form" novalidate data-payments-enabled="false">
@@ -105,7 +106,7 @@
           <input name="name"><input name="phone"><input name="email"><input name="location"><input name="pickup"><input name="tender"><input name="notes"><input name="items"><input name="total"><input name="company">
         </form>
       </div>
-      <aside class="summary" aria-label="Order summary">
+      <aside class="summary" aria-label="Order summary" hidden>
         <h2 data-i18n="cart.yourTicket">Your ticket</h2>
         <div class="summary-lines"></div>
         <div class="totals" style="margin-top:14px"></div>
