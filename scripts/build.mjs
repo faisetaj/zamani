@@ -174,7 +174,7 @@ function renderFooter(prefix) {
     <p style="margin-top:12px"><a href="https://www.facebook.com/zamanimarketgrill" rel="noopener" target="_blank">Facebook</a></p></div>
   ${renderFooterNap(prefix)}
   <div><p class="fh" data-i18n="foot.visit">Visit</p><ul>${NAV.slice(1).map(([f, key, i18n, label]) => `<li><a href="${prefix}${key}" data-i18n="${i18n}">${label}</a></li>`).join("")}<li><a href="${prefix}privacy" data-i18n="foot.privacy">Privacy &amp; terms</a></li></ul></div>
-  <div class="legal"><span>© <span class="num">${new Date().getFullYear()}</span> Zamani Grill &amp; Market. <span data-i18n="foot.halal">Fully halal. No alcohol.</span></span><span data-i18n="foot.prices">Prices subject to change without notice.</span></div>
+  <div class="legal"><span>© <span class="num">${new Date().getFullYear()}</span> Zamani Grill &amp; Market. <span data-i18n="foot.halal">Fully halal. No alcohol.</span></span><span data-i18n="foot.prices">Prices subject to change without notice.</span><span><a href="https://www.faiseltajiran.com" style="text-decoration:none">Created and Administered by Faisel Tajiran</a></span></div>
 </footer>`;
 }
 function renderTicket(prefix) {
