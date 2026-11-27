@@ -24,7 +24,7 @@
       "blurb": "The same blends we cook with, in the kitchen and at home.",
       "img": "img/market/spices-white.webp",
       "items": [
-        { "id": "MK10", "name": "Seven Spice (Baharat)", "unit": "8 oz", "price": 4.99, "desc": "Our all-purpose Lebanese blend." },
+        { "id": "MK10", "name": "Seven Spice (Baharat)", "unit": "8 oz", "price": 4.99, "desc": "Our all-purpose Mediterranean blend." },
         { "id": "MK11", "name": "Sumac", "unit": "8 oz", "price": 4.99, "desc": "Tart, deep red. For salads and grilled meat." },
         { "id": "MK12", "name": "Za'atar", "unit": "8 oz", "price": 4.99, "desc": "Thyme, sesame and sumac." },
         { "id": "MK13", "name": "Shawarma Seasoning", "unit": "8 oz", "price": 5.49, "desc": "For chicken or beef." },
@@ -34,12 +34,12 @@
     {
       "id": "pantry",
       "name": "Pantry & Bread",
-      "blurb": "Staples for the Lebanese kitchen.",
+      "blurb": "Staples for the Mediterranean kitchen.",
       "img": "img/market/rice.webp",
       "items": [
         { "id": "MK20", "name": "Basmati Rice", "unit": "10 lb bag", "price": 18.99, "desc": "Extra-long grain." },
         { "id": "MK21", "name": "Tahini", "unit": "16 oz jar", "price": 6.99, "desc": "Pure ground sesame." },
-        { "id": "MK22", "name": "Extra Virgin Olive Oil", "unit": "1 L", "price": 13.99, "desc": "Lebanese, cold-pressed." },
+        { "id": "MK22", "name": "Extra Virgin Olive Oil", "unit": "1 L", "price": 13.99, "desc": "Mediterranean, cold-pressed." },
         { "id": "MK23", "name": "Pita Bread", "unit": "pack of 6", "price": 2.49, "desc": "Fresh daily." },
         { "id": "MK24", "name": "Bulgur", "unit": "2 lb", "price": 3.99, "desc": "Fine, for tabouli and kibbe." },
         { "id": "MK25", "name": "Medjool Dates", "unit": "1 lb", "price": 8.99, "desc": "Soft and large." },
